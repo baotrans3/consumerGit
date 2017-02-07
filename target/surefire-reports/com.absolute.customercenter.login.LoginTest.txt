@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: com.absolute.customercenter.login.LoginTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 219.145 sec <<< FAILURE! - in com.absolute.customercenter.login.LoginTest
+verifyLoginWorkFlow[0](com.absolute.customercenter.login.LoginTest)  Time elapsed: 45.084 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.absolute.customercenter.login.LoginTest.verifyLoginWorkFlow(LoginTest.java:97)
+
+verifyLoginWorkFlow[3](com.absolute.customercenter.login.LoginTest)  Time elapsed: 44.654 sec  <<< FAILURE!
+java.lang.AssertionError
+	at com.absolute.customercenter.login.LoginTest.verifyLoginWorkFlow(LoginTest.java:97)
+

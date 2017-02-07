@@ -1,0 +1,937 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Choose Device</title>
+    <meta name="description" content="Install and manage your Absolute LoJack protected device with the Absolute Customer Center. Absolute LoJack provides peace-of-mind by recovering stolen devices and remotely deleting personal information.">
+    <meta name="keywords" content="Absolute Customer Center, Laptop, Smartphone, Tablet Theft Recovery Solutions, mobile theft, laptop theft, theft recovery solutions, data protection software, recover stolen laptop, absolute software">
+<link href="https://partnercontent.absolute.com/CC/Content/Site.css?v=4665bb2cd2821dc7124902184bac3e3d" rel="stylesheet" type="text/css">
+<link href="https://partnercontent.absolute.com/CC/Content/Styles.css?v=b609c27b1d79dac7a9ab912f8bb43b8c" rel="stylesheet" type="text/css"> 
+<link href="https://partnercontent.absolute.com/CC/Content/colorbox.css?v=c01a560fb584f4eb8bb10bbdc235d78e" rel="stylesheet" type="text/css">
+
+<link href="https://partnercontent.absolute.com/Partners/ABST/site.desktop.less?v=16652d3dff1c1b82806a4780419bf4d5" rel="stylesheet/less" type="text/css"><style id="less:Partners-ABST-site:desktop:less-v-16652d3dff1c1b82806a4780419bf4d5" type="text/css">/*Define Color*/
+/*Region : Primary Background*/
+html {
+  background: url(https://partnercontent.absolute.com/Partners/ABST/CCDesktop/carbon_fibre.gif) repeat !important;
+  height: 100%;
+}
+/*End Region : Primary Background*/
+#save-button[disabled='disabled'],
+input[type='button'][id='btnCkTheftsubmit'][disabled='disabled'],
+.save-button[disabled='disabled'] {
+  background-color: #e4dfdf !important;
+  color: #888383 !important;
+  border: 1px solid #888383 !important;
+  box-shadow: 0 0 0 !important;
+}
+</style>      
+
+    <style type="text/css">
+        #container-grid {
+            min-width: 982px;
+        }
+    </style>
+
+<script src="https://www.google-analytics.com/plugins/ua/linkid.js" async="" type="text/javascript"></script><script src="https://www.google-analytics.com/analytics.js" async="" type="text/javascript"></script><script src="//www.googletagmanager.com/gtm.js?id=GTM-KHFJSZ" async=""></script><script src="https://partnercontent.absolute.com/CC/Scripts/jquery-1.4.4.min.js?v=964bd67b4dde45013ea1a5129c28044a" type="text/javascript"></script>
+    
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery-ui-1.8.11.js?v=ab85e95757453e11c381dfb0c734d74e" type="text/javascript"></script> 
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.validate.min.js?v=3f0c985039ad85737d987c33bf9fa14e" type="text/javascript"></script>
+<script type="text/javascript">
+    var jQuery_validate = jQuery.noConflict();
+</script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.validate.unobtrusive.min.js?v=c3e8c92b8b19eca148c15306e9760e45" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.unobtrusive-ajax.js?v=29ed5a4f19b6d5844bbbb423bed6ea7b" type="text/javascript"></script>
+
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery-1.7.1.js?v=382c2385d754331632ce88cbf853b992" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/pubsub.js?v=bb908325e5f3badb07cdaa1228c59adb" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.colorbox-min.js?v=d6b4ad08af1be9b2160d9e1f90df609f" type="text/javascript"></script>
+
+<script src="https://partnercontent.absolute.com/CC/Scripts/loader.js?v=51f7a34a84ec3dcd60039553190c9284" type="text/javascript"></script>
+
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.tools.touchfix.min.js?v=d033b9e4bc22beb9b77b6c06b1772f40" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/ABS.functions.js?v=f89d598380b9606c79efe187e66c84d9" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/less-1.4.1.min.js?v=58c1a0c77db8cf24232e524f771427a5" type="text/javascript"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">                                                     
+
+<script type="text/javascript">
+    $(document).ready(function () {
+
+        if ($.browser.msie) {
+            browserVer = ($.browser.version);
+            if (browserVer <= 8) {
+                // addded round for boxs in Intel AT Configuration Wizard
+                if ($('#btnSetupWizard').length > 0) {
+                    $('<div class="connerDiv connerDivTopLeft"></div><div class="connerDiv connerDivTopRight"></div>').insertBefore($('#tierthree-content').find('p:first'));
+                    $('<div class="connerDiv connerDivBottonLeft"></div><div class="connerDiv connerDivBottonRight"></div>').insertAfter($('#btnSetupWizard'));
+
+                    // added round for buttons in Intel AT Configuration Wizard
+                    $('#btnSetupWizard').wrap('<span class="save-button-ie intelAT-round"><span></span></span>');
+                    $('#btnSetupWizard').css('padding-left', '25px');
+                    $('#btnSetupWizard').addClass('save-button');
+                    $('#btnSetupWizard').addClass('solo-button-ie');
+                    $('#btnSetupWizard').addClass('submitFormClass');
+
+                    $('#btnSetupWizardBack').wrap('<span class="save-button-ie intelAT-round"><span></span></span>');
+                    $('#btnSetupWizardBack').css('padding-left', '25px');
+                    $('#btnSetupWizardBack').addClass('save-button');
+                    $('#btnSetupWizardBack').addClass('solo-button-ie');
+                    $('#btnSetupWizardBack').addClass('submitFormClass');
+
+                    // added round for PIN box
+                    if ($('.pin-wrapper').length > 0) {
+                        $('.pin-wrapper').addClass('rounder');
+                        $('.pin-wrapper').corners('10px transparent');
+                        var divPin = $('.pin-wrapper > div');
+                        if (divPin.length > 0) {
+                            $(divPin).each(function (index) {
+                                if (index == 1) {
+                                    $(this).css("min-height", "50px");
+                                }
+                            });
+                        }
+                    }
+                }
+            }
+        }
+    });    
+
+</script>
+<script src="https://www.upsellit.com/launch/absolutesoftware.jsp" type="text/javascript"></script></head>
+<body class="tundra" id="cho_customer_center_choosedevice_page" lang="en">
+<script> 
+dataLayer = []; 
+</script> 
+
+<!-- Google Tag Manager --> 
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KHFJSZ" 
+height="0" width="0" 
+style="display:none;visibility:hidden"></iframe></noscript> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+new Date().getTime(),event:'gtm.js'});var 
+f=d.getElementsByTagName(s)[0], 
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore 
+(j,f); 
+})(window,document,'script','dataLayer','GTM-KHFJSZ');</script> 
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager - Variables --> 
+<script> 
+dataLayer.push({ 
+'CountryCode': 'VN', 
+'LoggedIn': 'logged in', 
+'CustomerType': 'Customer', 
+'LocaleCode': 'en' 
+}); 
+</script> 
+<!-- End Google Tag Manager - Variables -->
+
+<div id="tierpre">
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var culture = "en-us";
+        if (culture.length > 0 && (culture.toLowerCase() == "vi-vn")) {
+            $("#links-post").css("font-family", "'arial',sans-serif");
+        }
+    });
+</script>
+
+<div id="tierone">
+	<a id="link-logo" href="/ChooseDevice"><div id="logo-post" style="background:url(https://partnercontent.absolute.com/Partners/ABST/CCDesktop/CCDesktop-header-companylogo.png) no-repeat !important"></div></a>
+    <div id="welcome"><a id="link-welcome" href="/ChooseDevice"> Welcome <label for="lblFirstName">bao</label> </a></div>
+
+    <div id="links-post">
+
+    <a id="link-choose-device" href="/ChooseDevice/Index">DEVICES</a> <sub>°</sub> 
+    <a id="link-profile" href="/Profile/Index">SETTINGS</a> <sub>°</sub>   
+
+    <a id="link-support" href="https://help.absolute.com/html5/en/Default.htm#cshid=1011" target="_blank">HELP</a> <sub>°</sub>
+    <a id="link-logout" href="/Home/Logout">LOGOUT</a>
+    </div>
+
+
+<div style="float:right;width:100%; margin-top:6px;">
+<p class="panic" id="link-add-device"><a href="/Registration/RegCode">Add Device</a></p>
+</div>
+</div>
+ 
+<!--before -rednerbody-->
+ 
+<script type="text/javascript">
+    AutoSyncLicenseStatus = {
+        timeCallServer: 30000,
+        maximumCallServer: 3,
+        countCallServer: 0,
+        isChanged: false,
+        getLicenseStolen: function () {
+            var status = 'Stolen';
+            var license = '';
+            $('td.device-status').each(function () {
+                if ($.trim($(this).html()) === status) {
+                    var id = $(this).closest('tr')[0].getAttribute('onclick');
+                    if (id.length > 21) {
+                        id = id.replace('javascript:rowClick(', '').replace(');', '');
+                        license += id + ',';
+                    }
+                }
+            });
+            if (license.length > 0) {
+                license = license.substr(0, license.length - 1);
+            }
+            return license;
+        },
+        autoSync: function () {
+            var self = this,
+            license = self.getLicenseStolen();
+            if (license && license.length > 0 && self.countCallServer < self.maximumCallServer) {
+                $.ajax({
+                    url: '/ChooseDevice/CheckStolenChanged',
+                    type: 'POST',
+                    data: JSON.stringify({ stolenLicenses: license, fromView: 'ChooseDevice' }),
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function (data, status) {
+                        if (data && data.isValid && data.isChanged) {
+                            var searchCondition = 0;
+                            var keySearch = '';
+                            if (typeof $('#callSearchDevices').attr('keySearch') != "undefined" && $('#callSearchDevices').attr('keySearch').length > 0) {
+                                keySearch = $('#callSearchDevices').attr('keySearch');
+                            }
+                            searchCondition = (typeof $('#callSearchDevices').attr('searchOption') === "undefined") ? 0 : $('#callSearchDevices').attr('searchOption');
+                            if (AutoSyncLicenseStatus.currentPage == 1 && keySearch == '' && searchCondition == 0) {
+                                location.href = window.location.href;
+                            }
+                            else {
+                                LoadPaging(AutoSyncLicenseStatus.currentPage, 'paging', 'ChooseDevice');
+                            }
+                        } else {
+                            self.countCallServer++;
+                            setTimeout("AutoSyncLicenseStatus.autoSync()", self.timeCallServer);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {
+                        self.countCallServer++;
+                        setTimeout("AutoSyncLicenseStatus.autoSync()", self.timeCallServer);
+                    }
+                });
+
+            }
+
+        },
+        currentPage: 1 // first page.
+    }
+    
+    function checkPagingTimeOut() {
+        $.ajax({
+            url: './Home/CheckLogin',
+            type: 'POST',
+            success: function (data, textStatus, xhr) {
+                if (data.state == "timeout") {
+                    window.location.href = data.rtnValue;
+                }
+                if (data.state == "logout") {
+                    window.location.href = data.rtnValue;
+                }
+            },
+            error: function (xhr, textStatus, thrownError) {
+                window.location.href = "/Home/Index?messageId=sessionTimeout";
+            }
+        });
+    }
+
+    function LoadPaging(index, id, controller) {
+        checkPagingTimeOut();
+        window.setTimeout(function () {
+            var searchCondition = 0;
+            var keySearch = '';
+            if (typeof $('#callSearchDevices').attr('keySearch') != "undefined" && $('#callSearchDevices').attr('keySearch').length > 0) {
+                keySearch = $('#callSearchDevices').attr('keySearch');
+            }
+            searchCondition = (typeof $('#callSearchDevices').attr('searchOption') === "undefined") ? 0 : $('#callSearchDevices').attr('searchOption');
+            // keep page index when page is refresh.
+            AutoSyncLicenseStatus.currentPage = index;
+            var dataJson = { pageIndex: index, searchCondition: searchCondition, keySearch: keySearch };
+            var jsonSerialised = JSON.stringify(dataJson);
+            $.ajax({
+                url: '/ChooseDevice',
+                type: 'post',
+                data: jsonSerialised,
+                contentType: 'application/json; charset=utf-8',
+                success: function (data, status) {
+                    if (status == "success") {
+                        var dom = $(data);
+                        $('#' + id).empty().append(dom.find('#' + id).html());
+                        $('#keySearch').val($('#callSearchDevices').attr('keySearch'));
+                        $('#searchOption option').each(function () {
+                            if ($(this).val() == searchCondition) {
+                                this.selected = true;
+                            }
+                        });
+                        AddRounds();
+                    }
+                }
+            });
+        }, 1000);
+    }
+
+    function showError() {
+        if ($('#paging tr').length === 1) {
+            $('#paging tr th').remove();
+            $('#paging tr').append('<td>No match</td>');
+        }
+    }
+    function callSearch() {
+        $('#callSearchDevices').click();
+    }
+
+    $(function () {
+        $('#callSearchDevices').click(function () {
+            checkPagingTimeOut();
+            window.setTimeout(function () {
+                $('#callSearchDevices').attr('keySearch', $.trim($('#keySearch').val())); // store data for key search
+                $('#callSearchDevices').attr('searchOption', $('#searchOption').val()); // store data for search option
+                AutoSyncLicenseStatus.currentPage = 1;                                   // reset current page is 1
+                var dataJson = { pageIndex: 1, searchCondition: $('#searchOption').val(), keySearch: $.trim($('#keySearch').val()) };
+                var jsonSerialised = JSON.stringify(dataJson);
+                $.ajax({
+                    url: '/ChooseDevice',
+                    type: 'post',
+                    data: jsonSerialised,
+                    contentType: 'application/json; charset=utf-8',
+                    success: function (data, status) {
+                        if (status == "success") {
+                            var dom = $(data);
+                            $('#paging').empty().append(dom.find('#paging').html());
+                            showError();
+                            $('#keySearch').val($('#callSearchDevices').attr('keySearch'));
+                            $('#searchOption option').each(function () {
+                                if ($(this).val() == $('#callSearchDevices').attr('searchOption')) {
+                                    this.selected = true;
+                                }
+                            });
+                            AddRounds();
+                        }
+                    }
+                });
+            }, 1000);
+        });
+
+        $('#rowHiddenClick').click(function () {
+            window.location.href = '/ChooseDevice/Device?licenseId=' + $(this).attr('licenseId');
+            return false;
+        });
+
+        AddRounds();
+
+        // limited character of device's names are too long.
+        AdjustLengthOfDeviceName();
+    });
+
+    function AddRounds() {
+        //Auto Sync license status.
+        AutoSyncLicenseStatus.countCallServer = 0;
+        AutoSyncLicenseStatus.autoSync();
+        
+        if ($.browser.msie) {
+            browserVer = ($.browser.version);
+            if (browserVer <= 8) {
+                if ($('#btnSearch').length > 0) {
+                    $('<div class="connerDiv connerDivTopLeft"></div><div class="connerDiv connerDivTopRight"></div>').insertBefore($('#tierthree-content').find('table.switch'));
+                    $('<div class="connerDiv connerDivBottonLeft"></div><div class="connerDiv connerDivBottonRight"></div>').insertAfter($('#tierthree-content').find('table.switch'));
+
+                    $('#btnSearch').wrap('<span class="save-button-ie search-round"><span></span></span>');
+                    $('#btnSearch').css('padding-left', '25px');
+                    $('#btnSearch').addClass('save-button');
+                    $('#btnSearch').addClass('solo-button-ie');
+                    $('#btnSearch').addClass('submitFormClass');
+                    $('#btnSearch').attr('id', 'btnSearch-ie');
+                }
+            }
+        }
+    }
+
+    function rowClick(licensId) {
+        $('#rowHiddenClick').attr('licenseId', licensId);
+        $('#rowHiddenClick').click();
+    }
+
+    function AdjustLengthOfDeviceName(){
+         var culture = "en-us";
+         if (culture.length > 0 && (culture.toLowerCase() == "de-de" || culture.toLowerCase() == "sv-se")) {
+             var labelDeviceNames = $('table.switch').find('tr.cursor td.device-name label');
+             if (labelDeviceNames.length > 0) {
+                 $(labelDeviceNames).each(function () {
+                     var deviceName = $(this);
+                     var deviceNameArr = $.trim($(this).text()).split(' ');
+                     if (deviceNameArr.length > 0) {
+                         $(deviceNameArr).each(function (index) {
+                             if (deviceNameArr[index].length >= 20) {
+                                 var shortName = deviceName.text().substr(0, 18) + "...";
+                                 $(deviceName).text(shortName);
+                             }
+                         });
+                     }
+                 });
+             }
+         }
+    }
+</script>
+
+<input id="callSearchDevices" type="hidden">
+<input id="rowHiddenClick" type="hidden">
+<div id="tiertwo-settings" class="device-list">
+</div>
+<div id="container-grid"></div>
+<div id="tierthree-switch">
+    <div id="tierthree-wrapper" class="paging">
+        <h1>Select Device</h1>
+        <p>Please select the device you would like to manage. If you cannot find your device below, please contact <a href="http://lojack.absolute.com/en/support" class="underline" target="_blank">Global Support</a>.</p>
+        
+        <div id="paging">
+        <div class="dvPagination PaginationTop">      
+            <div id="dv-search">
+               <select id="searchOption">
+                    <option value="0">All Searchable Fields</option>
+                    <option value="1">Registration Code</option>
+                    <option value="2">Device Name</option>
+               </select>
+               <input autocomplete="off" id="keySearch" maxlength="30" onkeydown="if(event.which || event.keyCode){if ((event.which == 13) || (event.keyCode == 13)) {$('#callSearchDevices').click();return false;} } else {return true};" type="text">
+               <input value="Search" id="btnSearch" onclick="javascript:callSearch();" type="button">
+            </div>
+            <div class="page"><ul><li><span> &lt;&lt; </span></li><li><span> &lt; </span></li><li class="active"><span>1</span></li><li><strong><a onclick="javascript:LoadPaging(2,'paging','ChooseDevice')">2</a></strong></li><li><strong><a onclick="javascript:LoadPaging(3,'paging','ChooseDevice')">3</a></strong></li><li><strong><a onclick="javascript:LoadPaging(2,'paging','ChooseDevice')">&gt;</a></strong></li><li><strong><a onclick="javascript:LoadPaging(3,'paging','ChooseDevice')">&gt;&gt;</a></strong></li></ul></div>
+        </div>
+        <div id="tierthree-content">
+            <div class="totalDevice"><b>21</b> <b>Device(s)</b></div>
+            <div style="clear:both;"></div>
+            <table class="switch android" cellpadding="0" cellspacing="0">
+            	<tbody><tr class="header">
+		            <th class="device-status">Status</th>
+		            <th class="device-name">Device</th>
+                    <th class="device-regcode">Registration Code</th>
+                    <th class="device-number">Phone Number</th> 
+		            <th class="device-product">Product</th>
+		            <th class="device-expiration">License Info</th>
+                </tr>
+                            <tr id="deviceF2LQXM6XF9" class="even cursor" onclick="javascript:rowClick(3236239);">
+                        
+                            <td class="device-status">
+                                Not Calling
+                            </td>
+                            <td class="device-name">
+0000                                <span>unknown</span>
+                            </td>
+                            <td class="device-regcode">
+                                F2LQXM6XF9
+                            </td>
+                            <td class="device-number">
+                                1555521555
+                            </td> 
+                            <td class="device-product">
+                                Absolute Data Protect Mobile
+                            </td>
+                            <td class="device-expiration">
+                                Expired
+                           
+                                <span>(Expires: 2/4/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="devicePQEV7HZ66X" class="cursor" onclick="javascript:rowClick(3133179);">
+                        
+                            <td class="device-status">
+                                Stolen
+                            </td>
+                            <td class="device-name">
+ANH-PC                                <span>INNOTEK GMBH</span>
+                            </td>
+                            <td class="device-regcode">
+                                PQEV7HZ66X
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack - Premium
+                            </td>
+                            <td class="device-expiration">
+                                Active
+                           
+                                <span>(Expires: 4/8/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="deviceLY9YAUMQRW" class="even cursor" onclick="javascript:rowClick(2831318);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+Bao Tran HTC                                <span>HTC</span>
+                            </td>
+                            <td class="device-regcode">
+                                LY9YAUMQRW
+                            </td>
+                            <td class="device-number">
+                                841642648754
+                            </td> 
+                            <td class="device-product">
+                                Absolute Data Protect Mobile
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 5/16/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="deviceUW7RA6YVR6" class="cursor" onclick="javascript:rowClick(3120070);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                UW7RA6YVR6
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute Data Protect Mobile
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 3/2/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="deviceLY2NHQ3WJY" class="even cursor" onclick="javascript:rowClick(2831292);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                LY2NHQ3WJY
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 5/16/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="deviceK4E6URZL6N" class="cursor" onclick="javascript:rowClick(2831321);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                K4E6URZL6N
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack - Premium
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 5/16/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="device2CYWYLTJ3H" class="even cursor" onclick="javascript:rowClick(3225380);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                2CYWYLTJ3H
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack Mobile - Premium
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 11/30/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="device9XEFXYGFXG" class="cursor" onclick="javascript:rowClick(3181512);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                9XEFXYGFXG
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack Mobile - Premium
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 8/15/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="deviceCU9X6XPZ77" class="even cursor" onclick="javascript:rowClick(3179989);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                CU9X6XPZ77
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack Mobile - Premium
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 8/11/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+                            <tr id="deviceEFWNPUCQLQ" class="cursor" onclick="javascript:rowClick(3191890);">
+                        
+                            <td class="device-status">
+                                Not Available
+                            </td>
+                            <td class="device-name">
+No name                                <span></span>
+                            </td>
+                            <td class="device-regcode">
+                                EFWNPUCQLQ
+                            </td>
+                            <td class="device-number">
+                                
+                            </td> 
+                            <td class="device-product">
+                                Absolute LoJack Mobile - Premium
+                            </td>
+                            <td class="device-expiration">
+                                Inactive
+                           
+                                <span>(Expires: 9/6/2017)</span>
+                             
+                            </td>
+                        
+                        </tr>               
+            </tbody></table>
+        </div>
+        <div class="dvPagination">
+            <div class="page"><ul><li><span> &lt;&lt; </span></li><li><span> &lt; </span></li><li class="active"><span>1</span></li><li><strong><a onclick="javascript:LoadPaging(2,'paging','ChooseDevice')">2</a></strong></li><li><strong><a onclick="javascript:LoadPaging(3,'paging','ChooseDevice')">3</a></strong></li><li><strong><a onclick="javascript:LoadPaging(2,'paging','ChooseDevice')">&gt;</a></strong></li><li><strong><a onclick="javascript:LoadPaging(3,'paging','ChooseDevice')">&gt;&gt;</a></strong></li></ul></div>
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+
+
+ <div style="clear:both;"></div>
+<div id="footer">
+    <div id="footer-wrapper">
+        <div class="footer-content">
+            <div class="footerLogo"><img src="https://partnercontent.absolute.com/Partners/ABST/CCDesktop/CCDesktop-footer-lojack-logo.png" alt=""></div>
+            <div class="footerLogo"><img src="https://partnercontent.absolute.com/Partners/ABST/CCDesktop/CCDesktop-footer-ADP-logo.png" alt=""></div>
+        </div>
+        <div class="footer-content right">
+            <p>For support issues, visit <a href="http://lojack.absolute.com/en/support" target="_blank">Absolute Global Support</a></p>
+            <p style="margin-top: 10px;">© 2017 Absolute Software Corporation. All rights reserved.<br>
+                <a href="http://www.absolute.com/en/company/legal/policy.aspx" target="_blank">Privacy Policy</a> |                <a href="http://www.absolute.com/en/company/legal/agreements/" target="_blank">Service Agreement</a> |              
+                <a href="http://www.absolute.com/company/legal/patents" target="_blank">Patents in US,CAN,UK,GER,AUS,JPN</a> 
+               
+                
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var TimeOutSeconds = 19 * 60 *1000; //19 minutes
+    var Interval = 1 * 60 * 1000;// 1 minute
+
+    function ProcessSessionTimeOut_Tick() {
+        var sessionTimeOutSeconds = GetCookie('TimeOutSeconds');
+        sessionTimeOutSeconds = sessionTimeOutSeconds - Interval;
+        console.log("sessionTimeOutSeconds (mins): " + sessionTimeOutSeconds/(60 *1000));    
+        if (sessionTimeOutSeconds < 0)
+        {   
+            ClearCookie('TimeOutSeconds');
+            SendRequestTimeOut();
+        }else{
+            SetCookie("TimeOutSeconds",sessionTimeOutSeconds);
+            setTimeout("ProcessSessionTimeOut_Tick()", Interval);
+        }
+    }
+
+    function SendRequestTimeOut() {
+        //send timeout request
+        $.ajax({
+            type: 'POST',
+            url: '/Home/ProceedSessionTimeOut',
+            async : false,
+        });
+    }
+
+    function SetCookie(name, value) {
+        document.cookie = name + "=" + value + "; path=/";
+        if (window.parent) {
+            window.parent.document.cookie = name + "=" + value + "; path=/"; 
+        } 
+    }
+
+    function GetCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0)
+                return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    function ClearCookie(name) {
+        document.cookie = name + "=''; path=/";
+    }
+
+    $(document).ready(function () {
+        if (ABSFunction.isStaffUserLogin()) { 
+            console.log("begin to start session timeout timer");    
+            SetCookie("TimeOutSeconds",TimeOutSeconds);
+            ProcessSessionTimeOut_Tick();
+        }
+    });
+
+</script>
+<script type="text/javascript">
+
+/**
+ * This javascript file checks for the brower/browser tab action.
+ * It is based on the file menstioned by Daniel Melo.
+ * Reference: http://stackoverflow.com/questions/1921941/close-kill-the-session-when-the-browser-or-tab-is-closed
+ */
+var validNavigation = false;
+var log ="";
+function simpleModal_onShow ()
+{
+    log = log + "simpleModal_onShow";
+    setTimeout(simpleModal_onShow_Tick, 100);
+}
+
+function simpleModal_onShow_Tick()
+{
+    log = log + "simpleModal_onShow_Tick";
+    validNavigation = false;
+}
+
+function wireUpEvents_Tick(time)
+{
+    log = log + "wireUpEvents_Tick";
+    setTimeout(wireUpEvents, time);
+}
+
+function endSession() {
+  // Browser or broswer tab is closed
+  // Do sth here ...
+    $.ajax({
+        type: 'POST',
+        url: '/Home/CloseWindow',
+        async : false,
+    });
+}
+ 
+function wireUpEvents() {
+  /*
+  * For a list of events that triggers onbeforeunload on IE
+  * check http://msdn.microsoft.com/en-us/library/ms536907(VS.85).aspx
+  */
+  window.onunload = function() {
+        log = log + "onunload";
+      if (validNavigation == false) {
+         endSession();
+      }
+  }
+ 
+  // Attach the event keypress to exclude the F5 refresh
+  $(document).bind('keypress', function(e) {
+
+    if (e.keyCode == 116){
+    log = log + "keypress";
+      validNavigation = true;
+    }
+  });
+ 
+// Attach the event keypress to exclude the F5 refresh
+  $(document).bind('keydown', function(e) {
+
+    if (e.keyCode == 116){
+     log = log + "keydown";
+      validNavigation = true;
+    }
+  });
+
+  // Attach the event click for all links in the page
+  $("a").bind("click", function() {
+    log = log + "a_click";
+    validNavigation = true;
+  });
+
+$("a[class='banner']").bind("click", function() {
+        log = log + "banner_click";
+        simpleModal_onShow();
+  });
+
+$("a[class='close icon-close-2']").bind("click", function() {
+        log = log + "icon_close_click";
+        simpleModal_onShow();
+  });
+
+
+$("a[class='close icon-close']").bind("click", function() {
+        log = log + "icon_close_click";
+        simpleModal_onShow();
+  });
+
+ $("ul[class='card-tabs'] li a").bind("click", function() {
+        log = log + "a_device_click";
+        simpleModal_onShow();
+  });  
+ $("ul[class='card-tabs'] li").bind("click", function() {
+        log = log + "a_device_click";
+        simpleModal_onShow();
+  }); 
+
+
+  // Attach the event click for all links in the page
+  $("button").not(':input[type=submit], :input[type=reset]').bind("click", function() {
+    log = log + "button_click";
+    validNavigation = true;
+  });
+
+  $("button[class='btn-accept btn-primary btn-medium']").bind("click", function() {
+    log = log + "button_btn-accept_click";
+        simpleModal_onShow();
+  });
+
+  $("button[class='primary cta btn-accept']").bind("click", function() {
+    log = log + "button_btn-accept_click";
+        simpleModal_onShow();
+  });
+
+   $("button[class='tertiary close btn-decline']").bind("click", function() {
+    log = log + "button_btn-decline_click";
+        simpleModal_onShow();
+  });
+
+ $("button[class='btn-decline btn-low btn-medium']").bind("click", function() {
+    log = log + "button_btn-decline_click";
+        simpleModal_onShow();
+  });
+
+
+   $("ul[class='device-list'] li").bind("click", function() {
+    log = log + "ul_li_click";
+    validNavigation = true;
+  });
+
+ $("ul[class='device-list'] li a").bind("click", function() {
+    log = log + "ul_li_click";
+    validNavigation = true;
+  });
+
+  // Attach the event submit for all forms in the page
+  $("form").bind("submit", function() {
+//    var qform = $('form');
+//    $.validator.unobtrusive.parse(qform);
+//    if (qform.valid())
+//    {   
+//        log = log + "form is valid";
+//        simpleModal_onShow();
+//    }else{
+//        log = log + "form is not valid";
+//    }
+  });
+ 
+   
+
+  // Attach the event click for all links in the page
+  $("tr").live("click", function() {
+    log = log + "tr_click";
+    validNavigation = true;
+  });
+   
+    $(document).on("click","tr td", function(e){
+    log = log + "tr_td_click";
+        validNavigation = true;
+    });
+
+}
+ 
+// Wire up the events as soon as the DOM tree is ready
+$(document).ready(function() {
+    if (ABSFunction.isStaffUserLogin()) { 
+    
+        wireUpEvents();  
+    }
+});
+
+
+</script>
+
+
+
+
+
+<div style="display: none;" id="cboxOverlay"></div><div style="display: none;" class="" id="colorbox"><div id="cboxWrapper"><div><div style="float: left;" id="cboxTopLeft"></div><div style="float: left;" id="cboxTopCenter"></div><div style="float: left;" id="cboxTopRight"></div></div><div style="clear: left;"><div style="float: left;" id="cboxMiddleLeft"></div><div style="float: left;" id="cboxContent"><div style="width: 0px; height: 0px; overflow: hidden; float: left;" id="cboxLoadedContent"></div><div style="float: left;" id="cboxLoadingOverlay"></div><div style="float: left;" id="cboxLoadingGraphic"></div><div style="float: left;" id="cboxTitle"></div><div style="float: left;" id="cboxCurrent"></div><div style="float: left;" id="cboxNext"></div><div style="float: left;" id="cboxPrevious"></div><div style="float: left;" id="cboxSlideshow"></div><div style="float: left;" id="cboxClose"></div></div><div style="float: left;" id="cboxMiddleRight"></div></div><div style="clear: left;"><div style="float: left;" id="cboxBottomLeft"></div><div style="float: left;" id="cboxBottomCenter"></div><div style="float: left;" id="cboxBottomRight"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div><script id="" type="text/javascript">function USI_installCode(){var b=document.getElementsByTagName("head")[0],a=document.createElement("script");a.type="text/javascript";a.src="http"+("https:"==document.location.protocol?"s://www":"://www")+".upsellit.com/launch/absolutesoftware.jsp";b.appendChild(a)}window.addEventListener?window.addEventListener("load",USI_installCode,!0):window.attachEvent?window.attachEvent("onload",USI_installCode):USI_installCode();</script></body></html>

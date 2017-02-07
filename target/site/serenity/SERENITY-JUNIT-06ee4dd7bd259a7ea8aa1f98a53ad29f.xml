@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="2" name="com.absolute.customercenter.login.LoginTest" skipped="0" tests="5" time="198.52" timestamp="2017-02-37 04:31:00"><testcase classname="com.absolute.customercenter.login.LoginTest" name="Verify login workflow"><failure type="java.lang.AssertionError"/><system-err>null&#13;
+com.absolute.customercenter.login.LoginPage.verifyExpectations(LoginPage.java:77)&#13;
+com.absolute.customercenter.login.LoginSteps.verifyExpectation(LoginSteps.java:37)&#13;
+com.absolute.customercenter.login.LoginTest.verifyLoginWorkFlow(LoginTest.java:97)&#13;
+</system-err></testcase></testsuite>

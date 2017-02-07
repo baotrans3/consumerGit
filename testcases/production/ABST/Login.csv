@@ -1,0 +1,22 @@
+Case,Run,Email,Password,Expectation
+Log in Customer Center - incorrect password.,Y,bao.tran@s3corp.com.vn,123456,"xpath, .//*[@id='error-modal-login']/p, Your email address or password is not correct. Please log in again.
+xpath, .//*[@id='EmailM']
+xpath, .//*[@id='PasswordM']
+xpath, .//*[@id='link-forgot-password-bottom'], Forgot Password?
+xpath, .//*[@id='btn-modal-login'], Log In"
+Log in Customer Center - Correct Email/Password,Y,bao.tran@s3corp.com.vn,123456,"id, welcome, Welcome"
+Log in Customer Center - Email not exist,Y,bao.tran@s3corpcd.com.vn,123456,"xpath, .//*[@id='error-modal-login']/p, Your email address or password is not correct. Please log in again.
+xpath, .//*[@id='EmailM']
+xpath, .//*[@id='PasswordM']
+xpath, .//*[@id='link-forgot-password-bottom'], Forgot Password?
+xpath, .//*[@id='btn-modal-login'], Log In"
+Log in Customer Center - Account has 1 license,Y,deleteAutomation@mailinator.com,123456,"xpath, .//*[@id='tabLocate'], LOCATE
+xpath, .//*[@id='tabDeviceLock'], LOCK
+xpath, .//*[@id='tabDataDelete'], DELETE
+xpath, .//*[@id='profile-info'], registration code
+xpath, .//*[@id='profile-info'], serial number
+xpath, .//*[@id='profile-info'], product
+xpath, .//*[@id='profile-info'], device status
+xpath, .//*[@id='profile-info'], license status
+xpath, .//*[@id='profile-info'], license expiration"
+Log in Customer Center - Account has multi licenses (10+),Y,bao.tran@s3corp.com.vn,123456,"xpath, .//*[@class='page']/ul/li"

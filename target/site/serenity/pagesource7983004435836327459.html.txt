@@ -1,0 +1,2720 @@
+<html><head>
+ <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>Device</title>
+
+<link href="https://partnercontent.absolute.com/CC/Content/Site.css?v=4665bb2cd2821dc7124902184bac3e3d" rel="stylesheet" type="text/css">
+<link href="https://partnercontent.absolute.com/CC/Content/Styles.css?v=b609c27b1d79dac7a9ab912f8bb43b8c" rel="stylesheet" type="text/css"> 
+<link href="https://partnercontent.absolute.com/CC/Content/colorbox.css?v=c01a560fb584f4eb8bb10bbdc235d78e" rel="stylesheet" type="text/css">
+<link href="https://partnercontent.absolute.com/Partners/ABST/site.desktop.less?v=16652d3dff1c1b82806a4780419bf4d5" rel="stylesheet/less" type="text/css"><style id="less:Partners-ABST-site:desktop:less-v-16652d3dff1c1b82806a4780419bf4d5" type="text/css">/*Define Color*/
+/*Region : Primary Background*/
+html {
+  background: url(https://partnercontent.absolute.com/Partners/ABST/CCDesktop/carbon_fibre.gif) repeat !important;
+  height: 100%;
+}
+/*End Region : Primary Background*/
+#save-button[disabled='disabled'],
+input[type='button'][id='btnCkTheftsubmit'][disabled='disabled'],
+.save-button[disabled='disabled'] {
+  background-color: #e4dfdf !important;
+  color: #888383 !important;
+  border: 1px solid #888383 !important;
+  box-shadow: 0 0 0 !important;
+}
+</style>
+
+<script src="https://www.google-analytics.com/plugins/ua/linkid.js" async="" type="text/javascript"></script><script src="https://www.google-analytics.com/analytics.js" async="" type="text/javascript"></script><script src="//www.googletagmanager.com/gtm.js?id=GTM-KHFJSZ" async=""></script><script src="https://partnercontent.absolute.com/CC/Scripts/jquery-1.4.4.min.js?v=964bd67b4dde45013ea1a5129c28044a" type="text/javascript"></script>
+
+    
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery-ui-1.8.11.js?v=ab85e95757453e11c381dfb0c734d74e" type="text/javascript"></script> 
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.validate.min.js?v=3f0c985039ad85737d987c33bf9fa14e" type="text/javascript"></script> 
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.validate.unobtrusive.min.js?v=c3e8c92b8b19eca148c15306e9760e45" type="text/javascript"></script> 
+
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery-1.7.1.js?v=382c2385d754331632ce88cbf853b992" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/pubsub.js?v=bb908325e5f3badb07cdaa1228c59adb" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.colorbox-min.js?v=d6b4ad08af1be9b2160d9e1f90df609f" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/ABS.functions.js?v=f89d598380b9606c79efe187e66c84d9" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/less-1.4.1.min.js?v=58c1a0c77db8cf24232e524f771427a5" type="text/javascript"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">                                                     
+</head>
+<body class="tundra" id="loc_customer_center_locate_page" lang="en">
+<script> 
+dataLayer = []; 
+</script> 
+
+<!-- Google Tag Manager --> 
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KHFJSZ" 
+height="0" width="0" 
+style="display:none;visibility:hidden"></iframe></noscript> 
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': 
+new Date().getTime(),event:'gtm.js'});var 
+f=d.getElementsByTagName(s)[0], 
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= 
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore 
+(j,f); 
+})(window,document,'script','dataLayer','GTM-KHFJSZ');</script> 
+<!-- End Google Tag Manager -->
+
+<!-- Google Tag Manager - Variables --> 
+<script> 
+dataLayer.push({ 
+'CountryCode': 'VN', 
+'LoggedIn': 'logged in', 
+'CustomerType': 'Customer', 
+'ChannelCode': 'KART', 
+'ProductCode': 'LJS', 
+'VendorCode': 'AVGT', 
+'TermMonths': '12', 
+'AutoRenewalFlag': '0', 
+'TrialFlag': '0', 
+'UserId': '214b357d81bfac98733f7d5ba43eae45', 
+'ClientId': '214b357d81bfac98733f7d5ba43eae45', 
+'LocaleCode': 'en' 
+}); 
+</script> 
+<!-- End Google Tag Manager - Variables -->
+
+<div id="tierpre">
+</div>
+
+<script type="text/javascript">
+    $(function () {
+        var culture = "en-us";
+        if (culture.length > 0 && (culture.toLowerCase() == "vi-vn")) {
+            $("#links-post").css("font-family", "'arial',sans-serif");
+        }
+    });
+</script>
+
+<div id="tierone">
+	<a id="link-logo" href="/ChooseDevice"><div id="logo-post" style="background:url(https://partnercontent.absolute.com/Partners/ABST/CCDesktop/CCDesktop-header-companylogo.png) no-repeat !important"></div></a>
+    <div id="welcome"><a id="link-welcome" href="/ChooseDevice"> Welcome <label for="lblFirstName">bao Test</label> </a></div>
+
+    <div id="links-post">
+
+<a href="/ChooseDevice">DEVICES</a>    
+    <sub>°</sub>
+
+<a href="/Profile">SETTINGS</a>    
+    <sub>°</sub>
+
+    <a id="link-support" href="https://help.absolute.com/html5/en/Default.htm#cshid=1042" target="_blank">HELP</a> <sub>°</sub>
+    <a id="link-logout" href="/Home/Logout">LOGOUT</a>
+    </div>
+<div style="float:right;width:100%; margin-top:6px; margin-bottom:10px;">
+<p class="panic" id="link-add-device"><a href="/Registration/RegCode">Add Device</a></p>
+</div>
+
+ </div>
+<!--before -rednerbody-->
+ 
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.tools.touchfix.min.js?v=d033b9e4bc22beb9b77b6c06b1772f40" type="text/javascript"></script>
+
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.corners.js?v=535a01cab0ddc4a41ee5e6a88c38c976" type="text/javascript"></script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/jquery.validate.min.js?v=3f0c985039ad85737d987c33bf9fa14e" type="text/javascript"></script><script id="" type="text/javascript">function USI_installCode(){var b=document.getElementsByTagName("head")[0],a=document.createElement("script");a.type="text/javascript";a.src="http"+("https:"==document.location.protocol?"s://www":"://www")+".upsellit.com/launch/absolutesoftware.jsp";b.appendChild(a)}window.addEventListener?window.addEventListener("load",USI_installCode,!0):window.attachEvent?window.attachEvent("onload",USI_installCode):USI_installCode();</script>
+<script src="https://partnercontent.absolute.com/CC/Scripts/functions.js?v=b6b94783ae7573e2947d82b2df35c513" type="text/javascript"></script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        var isLimited = false;
+        if ('False'.toLowerCase() == 'true') {
+            isLimited = true;
+        }
+        if (isLimited) {
+            var recoveryTab = $('li.tab4');
+            if (recoveryTab.length > 0) {
+                var img = recoveryTab.find('img');
+                if (img.length > 0) {
+                    img.attr('src', 'https://partnercontent.absolute.com/CC/Content/Images/exclamationTriAngel.png');
+                }
+            }
+        }
+    });
+</script> 
+
+<div id="tiertwo">
+
+
+<script type="text/javascript">
+
+    AutoSyncLicenseStatus = {
+        timeCallServer: 30000,
+        maximumCallServer: 40,
+        countCallServer: 0,
+        isChanged: false,
+        isCalling: false,
+        getLicenseStolen: function () {
+            var status = 'Stolen';
+            var license = '';
+            var deviceInfo = $('#profile-info #reg-code');
+            if (deviceInfo && deviceInfo.length > 0) {
+                var valObj = deviceInfo.next().find('p > strong');
+                if (valObj && valObj.length == 2) {
+                    if ($.trim(valObj[1].innerHTML) === status) {
+                        license = '0';
+                    }
+                }
+            }
+            return license;
+        },
+        autoSync: function () {
+            var self = this,
+                license = self.getLicenseStolen();
+            if (license && license.length > 0 && self.countCallServer < self.maximumCallServer) {
+                $.ajax({
+                    url: '/ChooseDevice/CheckStolenChanged',
+                    type: 'POST',
+                    data: JSON.stringify({ stolenLicenses: license, fromView: 'DeviceInfo' }),
+                    contentType: "application/json",
+                    dataType: "json",
+                    success: function (data, status) {                            
+                        if (data && data.isValid && data.isChanged) {
+                            location.href = '/ChooseDevice/Device' +
+                                '?licenseId=' + '3168971' +
+                                '&controllername=' + 'Locate' +
+                                '&actionname=' + 'Index';
+
+                        } else {
+                            self.countCallServer++;
+                            setTimeout("AutoSyncLicenseStatus.autoSync()", self.timeCallServer);
+                        }
+                    },
+                    error: function (xhr, ajaxOptions, thrownError) {                            							
+                        self.countCallServer++;
+                        setTimeout("AutoSyncLicenseStatus.autoSync()", self.timeCallServer);
+                    }
+                });
+            }
+            
+        }
+    }
+
+    function RefreshStatusForTabs() {
+        $.ajax({
+            url: '/DeviceInfo/RefreshStatusForTabs',
+            type: 'POST',
+            success: function (data, status) {
+                if (data && data.isValid) {
+                    location.href = '/ChooseDevice/Device' +
+                        '?licenseId=' + '3168971' +
+                        '&controllername=' + 'Locate' +
+                        '&actionname=' + 'Index';
+
+                }
+            }
+        });
+    }
+
+    $(document).ready(function () {
+        //Refresh status for tabs
+        RefreshStatusForTabs();
+
+        //Auto Sync license status.
+        AutoSyncLicenseStatus.autoSync();
+
+        function OpenPrintDialog() {
+            $.ajax({
+                url: '/PrintLicense/CheckLogin',
+                type: 'POST',
+                success: function (data, textStatus, xhr) {
+                    if (data.state == "timeout") {
+                        window.location.href = data.rtnValue;
+                    }
+                    else if (data.state == "logout") {
+                        window.location.href = data.rtnValue;
+                    }
+                    else {
+                        window.open('/PrintLicense/printLicenses?licenseId=' + '3168971', 'PrintLicense', 'width=960,status=0,toolbar=0,scrollbars=1,resizable=yes');
+                    }
+                },
+                error: function (xhr, textStatus, thrownError) {
+                    window.location.href = "/Home/Index?messageId=sessionTimeout";
+                }
+            });
+        }
+
+        var systemName = $('#ComputerName').val();
+        if (systemName == "" || jQuery.trim(systemName) == "") {
+            $("#btnSave").attr("disabled", true);
+        }
+
+        $("#authGeo").click(function () {
+            location.href = "/Locate/Auth";
+        });
+
+        $("#install").click(function () {
+
+
+            location.href = "/DeviceInfo/Redirect";
+
+
+        });
+
+        $("#configureIntelAT").click(function () {
+            location.href = "/Setup/ConfigureIntelAT";
+        });
+
+        $("#PrintLicense").click(function () {
+            OpenPrintDialog();
+
+        });
+
+        //        $(".button-more").click(function () {
+        //            $("#secondary").slideToggle("fast");
+        //            $(this).text($(this).text() == "More" ? "Less" : "More");
+        //        });
+
+        $("#tiertwo-more").click(function () {
+            $("#tiertwo-more").hide();
+            $("#tiertwo-less").show();
+            $("#secondary").slideToggle("fast");
+        });
+
+        $("#tiertwo-less").click(function () {
+            $("#tiertwo-more").show();
+            $("#tiertwo-less").hide();
+            $("#secondary").slideToggle("fast");
+        });
+
+        $("#btnDisGeoOk").click(function () {
+
+            var sbtnoverlay = $('#disableGeo').overlay();
+
+            $.ajax({
+                url: '/DeviceInfo/DisableGeolocation',
+                type: 'POST',
+                data: [{ name: 'licenseid', value: '1111'}],
+                success: function (data, textStatus, xhr) {
+
+                    sbtnoverlay.close();
+                    if (data.isValid) {
+                        window.location.href = data.rtnUrl;
+                    }
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox
+                    sbtnoverlay.close();
+                }
+            });
+
+            return false;
+
+        });
+
+        $('#disableAutoRenewal').click(function (event) {
+            event.preventDefault();
+            $.cookie('viewmore', true);
+
+            $.ajax({
+                url: '/DeviceInfo/LogActionForSubscribeAndSaveReport',
+                type: 'POST',
+                data: { 'eventType': 'Billing_SubscribeAndSave', 'offerType':'' },
+                success: function (data, textStatus, xhr) {
+                    //do nothing
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox                           
+                }
+            });
+
+
+            var ccNumber = '1111';
+            if (ccNumber.length > 0) {
+                $.colorbox({
+                    open: true,
+                    inline: true,
+                    href: '#manage-autoRenewal',
+                    height: '250px',
+                    width: '700px',
+                    onComplete: function () {
+
+                    },
+                    onClosed: function () {
+                        $.cookie('viewmore', false);
+                    }
+                });
+            }
+            else {
+
+                if ('0' == 1) {    //DR auto renewal license which doesn't have a credit card                    
+
+                    $.colorbox({
+                        open: true,
+                        inline: true,
+                        href: '#manage-autoRenewal',
+                        height: '250px',
+                        width: '700px',
+                        onComplete: function () {
+
+                        },
+                        onClosed: function () {
+                            $.cookie('viewmore', false);
+                        }
+                    });
+                }
+                else {   // manual renewal license
+
+                    //empty colorbox while loading the content
+                    $.colorbox({
+                        open: true,
+                        iframe: true,
+                        href: '#',
+                        height: '740px',
+                        width: '900px',
+                        scrolling: false,
+                        overlayClose: false,
+                        escKey: false,
+                        fastIframe: false,
+                        onComplete: function () {
+
+                        },
+                        onClosed: function () {
+                            $.cookie('viewmore', false);
+                        }
+                    });
+
+                    $.ajax({
+                        url: '/DeviceInfo/GetSubscriptionInformation',
+                        type: 'POST',
+                        data: { 'subscriptionReference': '7B0C915C61' },
+                        success: function (data, textStatus, xhr) {
+
+                            //Set Cookie                        
+                            document.cookie = 'AcctCookie=RegCode:YMFYR2FRMG;domain=.absolute.com;path=/';
+
+                            if (data.isValid) {
+
+                                //Send Information to Google Analytics Code                            
+                                //_gaq.push(['send', 'event', 'Avangate', 'Subscribe and Save']);
+
+                                $.colorbox({
+                                    open: true,
+                                    iframe: true,
+                                    href: data.returnedUrl,
+                                    height: '740px',
+                                    width: '900px',
+                                    scrolling: false,
+                                    overlayClose: false,
+                                    escKey: false,
+                                    fastIframe: false,
+                                    onComplete: function () {
+
+                                    },
+                                    onClosed: function () {
+                                        $.cookie('viewmore', false);
+                                    }
+                                });
+
+                            }
+                            else {
+                                //Error Handeling                            
+                                ABSFunction.ErrorAutoRenewal('Event: Click Event Error #disableAutoRenewal');
+                            }
+
+                        },
+                        error: function (xhr, status) {
+                            //Close the Dialogbox                           
+                            $.colorbox.close();
+
+                        }
+                    });
+                }
+            }
+        });
+
+        $('#btnEnableAutoRenewalOk').click(function (event) {
+            event.preventDefault();
+            dataLayer.push({ 'autorenew': 'on', 'event': 'gtm.subscribe' });
+
+            $.ajax({
+                url: '/DeviceInfo/EnableAutoRenewal',
+                type: 'POST',
+                data: { 'RegCode': 'YMFYR2FRMG' },
+                success: function (data, textStatus, xhr) {
+
+                    if (data.isValid) {
+                        $.cookie('viewmore', true);
+                        window.location.href = data.returnedUrl;
+                    }
+                    else {
+                        //Error Handeling                        
+                        ABSFunction.ErrorAutoRenewal('Event: Click Event Error #btnEnableAutoRenewalOk');
+                    }
+
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox
+                    $.colorbox.close();
+
+                }
+            });
+
+            return false;
+        });
+
+        $('#btnDisableAutoRenewalOk').click(function (event) {
+            event.preventDefault();
+
+            dataLayer.push({ 'autorenew': 'off', 'event': 'gtm.subscribe' });
+
+            $.ajax({
+                url: '/DeviceInfo/DisableAutoRenewal',
+                type: 'POST',
+                data: { 'RegCode': 'YMFYR2FRMG' },
+                success: function (data, textStatus, xhr) {
+
+                    if (data.isValid) {
+                        $.cookie('viewmore', true);
+                        window.location.href = data.returnedUrl;
+
+                        setTimeout(function () {
+                            $('#tiertwo-more').click();
+                            $.cookie('viewmore', false);
+                        }, 500);
+
+                    }
+                    else {
+                        //Error Handeling
+                        ABSFunction.ErrorAutoRenewal('Event: Click Event Error #btnDisableAutoRenewalOk');
+                    }
+
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox
+                    $.colorbox.close();
+
+                }
+            });
+
+            return false;
+        });
+
+        $('#btnChangePaymentInfo').click(function (event) {
+            event.preventDefault();
+
+            //empty colorbox while loading the content
+            $.colorbox({
+                open: true,
+                iframe: true,
+                href: '#',
+                height: '740px',
+                width: '900px',
+                scrolling: false,
+                overlayClose: false,
+                escKey: false,
+                fastIframe: false,
+                onComplete: function () {
+
+                },
+                onClosed: function () {
+                    $.cookie('viewmore', false);
+                }
+            });
+
+            $.ajax({
+                url: '/DeviceInfo/GetSubscriptionInformation',
+                type: 'POST',
+                data: { 'subscriptionReference': '7B0C915C61' },
+                success: function (data, textStatus, xhr) {
+
+                    //Set Cookie
+                    document.cookie = 'AcctCookie=RegCode:YMFYR2FRMG;domain=.absolute.com;path=/';
+
+                    if (data.isValid) {
+                        $.cookie('viewmore', true);
+                        $.colorbox({
+                            open: true,
+                            iframe: true,
+                            href: data.returnedUrl,
+                            height: '740px',
+                            width: '900px',
+                            scrolling: false,
+                            overlayClose: false,
+                            escKey: false,
+                            fastIframe: false,
+                            onComplete: function () {
+
+                            },
+                            onClosed: function () {
+                                $.cookie('viewmore', false);
+                            }
+                        });
+
+                    }
+                    else {
+                        //Error Handeling
+                        ABSFunction.ErrorAutoRenewal('Event: Click Event Error #btnChangePaymentInfo');
+                    }
+
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox
+                    $.colorbox.close();
+
+                }
+            });
+
+            return false;
+        });
+
+        $("#btnTransferOk").click(function () {
+
+            window.location.href = "/DeviceInfo/TransferLicense";
+
+        });
+
+        //
+        AdjustHeightOfDetailPanel();
+
+        // For tabs
+        AdjustHeightOfTabs();
+
+
+        // For device's info with locale is Russia
+        var culture = "en-us";
+        if (culture.toLowerCase() == "ru-ru") {
+            var infoDivs = $.find('#profile-info > div');
+            if (infoDivs.length > 0) {
+                $(infoDivs).each(function (index) {
+                    if (index == 0) {
+                        $(this).css({ "min-width": "110px", "width": "130px" });
+                    }
+                    else if (index == 1) {
+                        $(this).css({ "max-width": "260px", "margin-right": "10px" });
+                    }
+                });
+            }
+
+            $("#tiertwo-wrapper #profile-info").css("height", "102px");
+        }
+
+        // Limit size of logo
+        $('#device > img').css('height', '70px');
+    });
+
+    function AdjustHeightOfDetailPanel() {
+        var serial2Info = $('#serial-num2');
+        if (serial2Info && serial2Info.length > 0) {
+            var currentHeight = $("#tiertwo-wrapper #profile-info").height();
+            currentHeight = currentHeight + 30;
+            $("#tiertwo-wrapper #profile-info").css("height", currentHeight + "px");
+        }
+    }
+
+    function AdjustHeightOfTabs() {
+        var heightTab = 30;
+        var tabs = $("#tabnav").find("a");
+
+        // Adjust text for all tabs firts
+        if (tabs.length > 0) {
+            tabs.each(function () {
+                var textValue = "<p class='textTab'>" + this.lastChild.nodeValue + "</p>";
+                this.lastChild.nodeValue = "";
+                if ($(this).find("img").length > 0) {
+                    $(textValue).insertAfter($(this).find("img"));
+                }
+                else {
+                    $(this).html(textValue);
+                }
+            });
+        }
+
+        // Adjust height of tabs after adjust text
+        if (tabs.length > 0) {
+            tabs.each(function () {
+                if ($(this).height() > heightTab) {
+                    heightTab = $(this).height();
+                }
+            });
+        }
+
+        //adjust for displaying both imei and serial
+        var serial2Info = $('#serial-num2');
+        if (serial2Info && serial2Info.length > 0) {
+            var heigthOfTierTwo = $("#tiertwo").height();
+            heigthOfTierTwo = heigthOfTierTwo + 50;
+            $("#tiertwo").css("min-height", heigthOfTierTwo);
+        }
+
+        if (heightTab > 30) {
+
+            var heigthOfTierTwo = $("#tiertwo").height();
+            heigthOfTierTwo = heigthOfTierTwo + heightTab - 30;
+            $("#tiertwo").css("min-height", heigthOfTierTwo);
+
+            // Adjust for tabs
+            var topOfUl = $("ul#tabnav").css("top");
+            topOfUl = topOfUl.replace("px", "");
+            var newTopOfUl = parseInt(topOfUl);
+            newTopOfUl = newTopOfUl - (heightTab - 30);
+            $("ul#tabnav").css("top", newTopOfUl);
+
+            // Adjust for map
+            if ($.find("#map_canvas").length > 0) {
+                var topOfMap = $("#map_canvas").css("top");
+                topOfMap = topOfMap.replace("px", "");
+                var newTopOfMap = parseInt(topOfMap);
+                newTopOfMap = newTopOfMap - (heightTab - 30);
+                $("#map_canvas").css("top", newTopOfMap);
+            }
+
+            // For page "Lock", "Delete", "Recovery"
+            if ($.find("#tierthree-wrapper").length > 0 && window.location.href.indexOf("Locate") < 0) {
+                $("#tierthree-wrapper").css("top", -(heightTab - 30));
+            }
+
+            var heightSeconndary = $("#secondary").height();
+            heightSeconndary = heightSeconndary + heightTab - 30;
+            // if heightTab > 40 offset div secondary more 40 px
+            if (heightTab > 40) {
+                heightSeconndary += 50;
+            }
+
+ 
+            $("#secondary").css("height", heightSeconndary);
+        }
+        else {
+            var lengthOfText = 0;
+            $('.secondary-block').each(function () {
+                var button = $(this).find('.secondary-block-button');
+                button.each(function () {
+                    if ($(this).text().length > lengthOfText) {
+                        lengthOfText = $(this).text().length;
+                    }
+                });
+            });
+            if (lengthOfText > 17) {
+                // if length of button's text > 17 offset div secondary more 20 px
+                var heightSeconndary = $("#secondary").height();
+                heightSeconndary = heightSeconndary + 20;
+                $("#secondary").css("height", heightSeconndary);
+            }
+        }
+
+        heightTab = heightTab + "px";
+                
+        if (tabs.length > 0) {
+            tabs.each(function () {
+                $(this).css("height", heightTab);
+            });
+        }        
+        if ($.cookie('viewmore') == 'true') {
+
+            $('#tiertwo-more').click();
+            $.cookie('viewmore', false);
+        }
+
+        if ("Active" == "NotInstalled") {
+            $("#tiertwo-more").click();
+        }  
+
+        // Using jQuery Event API v1.3
+        //Send Information to Google Analytics Code        
+        $('#btnChangePaymentInfo').on('click', function () {            
+            _gaq.push(['send', 'event', 'Avangate', 'Change Payment Information']);
+        });
+        
+    }
+
+</script>
+
+<div id="tiertwo-wrapper">
+    <div id="device">
+            <img style="height: 70px;" src="https://partnercontent.absolute.com/CC/content/images/laptop.gif">
+        <p id="textDeviceMakeAndModel">innotek GmbH VirtualBox</p>
+        <div id="devicemake-model">
+        </div>
+    </div>
+    <div id="profile">
+        <div id="profile-name">
+            <button class="modalInput" id="machine-name" rel="#name-update">
+                <h1 id="machine-name-h1">DESKTOP-NCS65L</h1>
+            </button>            
+            <p class="panic">
+                <a href="/CallFrequency">EMERGENCY HELP</a></p>
+        </div>
+        <!-- modal overlay -->
+        <div class="modal" id="name-update">
+            
+<script type="text/javascript">
+    var isAndroid = false;
+    $(function () {
+        $('#btnSave').click(function (e) {
+           
+            var srcbtnoverlay = $('#machine-name').overlay();
+            var systemName = $('#ComputerName').val();
+            systemName = jQuery.trim(systemName);
+            if (systemName == "") {
+                systemName = $('#machine-name').val();
+            }
+            systemName = systemName.replace(/\s\s+/g, ' ');
+
+            $.ajax({
+                url: '/DeviceInfo/EditComputerNameAction',
+                type: 'POST',
+                data: { 'computerName': systemName },
+                success: function (data, textStatus) {
+                    srcbtnoverlay.close();                   
+
+                    if (data.isValid == null) {
+                    } else {
+                        if (data.isValid) {
+                            var fixName;
+
+                            if (data.isHasSIMCard) {
+                                fixName = fixTextTooLongDeviceName(systemName, 15);
+                                fixName = ConvChar(fixName);
+                                $('#machine-name-h1').html(fixName);
+                            }
+                            else {
+                                fixName = fixTextTooLongDeviceName(systemName, 23);
+                                fixName = ConvChar(fixName);
+                                $('#machine-name-h1').html(fixName);
+                            }
+
+                            $('#ComputerName').val(systemName);
+                            $('#computerNameHidden').val(systemName);
+
+                            if (window.location.href.indexOf("Locate") > 0) {                                                         
+                                //$("#map_canvas").hide();
+                                window.location = window.location.href;
+                            }
+
+                        }
+                    }
+
+                },
+                error: function (xhr, status) {
+                    srcbtnoverlay.close();
+                }
+            });
+            return false;
+        });
+        $('#btnCancel').click(function () {
+            // refresh value from database
+            var value = $('#computerNameHidden').val();
+            $('#ComputerName').val(value);
+            $("#btnSave").attr("disabled", false);
+            $("#ErrorMessage").css("display", "none");
+            $('#ComputerName').removeClass('input-validation-error');
+        });
+        $('#ComputerName').keyup(function (event) {
+            var systemName = $('#ComputerName').val();
+            if (systemName == "" || jQuery.trim(systemName) == "") {
+                $("#btnSave").attr("disabled", true);
+                $("#ErrorMessage").css("display", "block");
+                $('#ComputerName').addClass('input-validation-error');
+            }
+            else {
+                $("#btnSave").attr("disabled", false);
+                $("#ErrorMessage").css("display", "none");
+                $('#ComputerName').removeClass('input-validation-error');
+            }
+        });
+    });
+    function ConvChar(str) {
+        c = { '<': '&lt;', '>': '&gt;', '&': '&amp;', '"': '&quot;', "'": '&#039;',
+            '#': '&#035;'
+        };
+        return str.replace(/[<&>'"#]/g, function (s) { return c[s]; });
+    }
+    function fixTextTooLongDeviceName(text, length) {
+        if (text.length > length)
+            return text.substring(0, length - 2) + "...";
+        return (text);
+    } 
+</script>
+<span class="overlayClose">
+        <img class="close" alt="" src="https://partnercontent.absolute.com/CC/content/Images/AbsCloseButton.png"></span>
+<h2>Edit Device Name (Reg Code:
+    YMFYR2FRMG)</h2>
+<p>
+    <input id="LicenseId" name="LicenseId" value="3168971" type="hidden">
+    <label>Device Name:
+    </label>
+    <input id="computerNameHidden" value="DESKTOP-NCS65L" type="hidden">
+    <input autocomplete="off" id="ComputerName" maxlength="30" name="ComputerName" onkeydown="if(event.which || event.keyCode){if ((event.which == 13) || (event.keyCode == 13)) { $('#btnSave').click(); return false;} } else {return true};" value="DESKTOP-NCS65L" type="text">
+    <label id="ErrorMessage" style="display: none; font-weight: bold; color: Red; margin-left: 125px;
+        margin-top: 5px">Device name is required.</label>
+</p>
+<p>
+        <button id="btnSave">SAVE</button>    
+    <button class="close" id="btnCancel">CANCEL</button>
+</p>
+           
+        </div>
+        <!-- end modal overlay-->
+       
+        <div id="profile-info">
+            <div class="profile-data" id="reg-code">
+                <p>
+                    Registration Code:</p>
+                <p>
+                    <strong>YMFYR2FRMG</strong></p>
+
+            <p>Serial Number:</p><p id="serial-num"><strong id="serial">Non-unique<span class="serial-break">.</span>S/N</strong></p>
+
+
+             
+             
+
+                <div id="serial-num-modal">
+                </div>
+            </div>
+            <div class="profile-data">
+                <p>
+                    Product:</p>
+                <p>
+                    <strong id="product-name">Absolute LoJack</strong></p>
+                <p>
+
+                    Device Status :</p>
+                <p>
+                   <strong>Not Calling (Last on 7/16/2016)</strong></p>
+            </div>
+            <div class="profile-data">
+                <p>
+                    License Status:</p>
+                <p>
+                    <strong>Active</strong></p>
+                <p>
+                    License Expiration</p>
+                <p>
+                     <strong id="end-date">7/15/2017</strong>
+                </p>
+            </div>
+            <p class="button-more" id="tiertwo-more">More</p>
+            <p class="button-more" id="tiertwo-less" style="display:none;">Less</p>
+        </div>
+     
+    </div>
+    
+        <div id="secondary">
+      
+        <div class="secondary-block">
+            <p class="secondary-block-button" id="PrintLicense">Print License</p>
+            <p>Print your software license for safekeeping.</p>
+        </div>
+        <div class="secondary-block">
+                <p class="modalInput secondary-block-button" id="uninstall" rel="#yesno">Uninstall</p>
+            <p>Remove the software from your device</p>
+        </div>
+        <div class="modal" id="yesno">
+            
+<!-- _UD -->
+
+<script type="text/javascript">
+
+    $(function () {
+        $('#btnUninstallYes').click(function () {
+
+            var srcbtnoverlay = $('#uninstall').overlay();
+
+            $.ajax({
+                url: '/DeviceInfo/RemoveAgentAction',
+                type: 'POST',
+                data: { 'ESN': '105DMWCVBFBE06240745', 'dialtype':'Normal', 'DeviceFreezeState':'',  'IntelATStatus': ''},
+                success: function (data, textStatus, xhr) {
+
+                    srcbtnoverlay.close();
+
+                    if (data.isValid) {
+                        window.location.href = data.rtnUrl;
+                    }
+
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox
+                    //ignore
+
+                    srcbtnoverlay.close();
+
+                }
+            });
+
+            return false;
+        });
+    });
+</script>
+
+<span class="overlayClose">
+    <img class="close" alt="" src="https://partnercontent.absolute.com/CC/content/Images/AbsCloseButton.png"></span>
+<h2>Flag Agent For Removal (Reg Code: YMFYR2FRMG)</h2>
+
+        <p>This option does not remove the agent immediately, but flags it for removal. The agent is removed from the device after the next agent call.</p>
+        <p>Do you want to continue?</p>
+        <p>
+                <button id="btnUninstallYes">Yes</button>    
+            <button id="btnUninstallNo" class="close">No</button>
+        </p>
+
+        </div>
+        <div class="secondary-block">
+            <p class="secondary-block-button" id="disableAutoRenewal">Billing</p> 
+       
+                <p>Turn Auto Renew feature on/off. Currently OFF.</p>
+        </div>        
+        <div style="display:none">
+            <div id="manage-autoRenewal">
+                <h2>Manage Auto Renew (Registration Code:
+                    YMFYR2FRMG)</h2>
+                <p style="padding-bottom:0px;">Auto Renew ensures your device is always protected, and your subscription is renewed at a discounted rate.</p>
+
+                    <p id="ccnumber" style="padding-bottom:0px;"><span class="highlightTitle">Payment Information</span>
+                        <br>
+                        Card Number: <span class="highlightTitle">XXXX-XXXX-XXXX-1111</span>            
+                    </p>                    
+                <p style="padding-left:0px;">        
+                        <button id="btnChangePaymentInfo" class="submitLink auto-renew-left">Change Payment Information</button>
+                            <button id="btnEnableAutoRenewalOk" class="btn-primary btn-small auto-renew-right">Enable Auto Renew</button>        
+                </p>
+            </div>
+        </div>
+
+    <div style="display:none">
+        <div id="error-autoRenewal">               
+            <p>We are unable to process your request at this time. Please try again later.</p>
+        </div>
+    </div>
+
+        <div class="secondary-block">
+                    <p class="modalInput secondary-block-button" id="disableGeo" rel="#disable-geo">Disable Locate</p>    
+                <p>Disable location services associated with this device</p>
+        </div>
+    
+  
+    <!-- modal overlay -->
+    <div class="modal" id="disable-geo">
+        <h2>Disable Location Confirmation</h2>
+        <p>Are you sure you want to disable location data collection on this device?</p>
+        <p>
+                <button id="btnDisGeoOk">Yes</button>    
+            <button class="close">No</button>
+        </p>
+    </div>
+    <!-- end modal overlay-->
+</div>
+</div>
+
+    
+
+</div>
+
+<div id="tierthree">
+    <!--test-->
+    
+
+<ul id="tabnav">
+	<li class="selected"><a style="height: 30px;" href="/Locate" id="tabLocate"><p class="textTab">LOCATE</p></a></li>
+	<li class="tab2"><a style="height: 30px;" href="/DeviceLock" id="tabDeviceLock"><p class="textTab">LOCK</p></a></li>
+	<li class="tab3"><a style="height: 30px;" href="/DataDelete" id="tabDataDelete"><p class="textTab">DELETE</p></a></li>
+	<li class="tab4"><a style="height: 30px;" href="/TheftRecovery" id="tabTheftRecovery"><p class="textTab">RECOVER</p></a></li>
+</ul>
+
+
+
+    
+<link rel="stylesheet" type="text/css" href="https://serverapi.arcgisonline.com/jsapi/arcgis/2.0/js/dojo/dijit/themes/tundra/tundra.css">
+<style>
+    .infowindow .window .top .right .user .content {
+        font-size: 10px !important;
+    }
+    .map-info-box {
+        position: absolute;
+        bottom: 15px;
+        right: 5px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -khtml-border-radius: 10px;
+        border-radius: 10px;
+        padding-left: 7px;
+        color: #ffffff;
+        background-image: url(https://partnercontent.absolute.com/CC/content/images/history-sprite.png);
+        background-repeat: no-repeat;
+        width: 14px;
+        background-position: 0px 2px;
+    }
+    
+    #tierthree #history-wrapper-question {
+        margin: 0 auto;
+        width: 982px;
+    }
+    
+    /** remove border of Esri info window **/
+    .infowindow .window .top .right .user .border {
+        border: none;
+    }
+  
+</style>
+
+<script type="text/javascript" src="https://partnercontent.absolute.com/CC/Scripts/async.js?v=3dd5ce4380f9fde331a340f310e0a2ca"></script>
+<script type="text/javascript" src="https://partnercontent.absolute.com/CC/Scripts/moment-locales.min.js?v=710a39e2111c983d20e724a0848f9269"></script>
+<script type="text/javascript" src="https://partnercontent.absolute.com/CC/Scripts/moment-timezone.js?v=d2786dd7a8a29292bed2a7a63794aa7f"></script>
+<script type="text/javascript" src="https://partnercontent.absolute.com/CC/Scripts/markerclusterer-min.js?v=3a22d80b5751f5848b950a421ab9c595"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //AR banner close button
+        $('.banner-offer #closer').click(function () {
+            $('.banner-offer').fadeOut(400);
+        });
+    });
+</script>
+
+<script type="text/javascript">
+    var djConfig = {
+        parseOnLoad: true
+    };
+</script>
+
+
+<script type="text/javascript">
+        
+    var g_esn = '105DMWCVBFBE06240745';
+    var g_locale = 'en-us';
+    var g_computerName = 'DESKTOP-NCS65L';
+    var g_isPremiumProduct = 'False';
+    var jwtToken = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyIjozMTIyNTk0LCJyb2xlcyI6IiIsImV4cCI6MTQ4NjQ1OTgxNn0._NajBvB-C8KSUlN3bi3R-7IGmviLj_9peZLJEDNPGBY';
+
+    var g_host = 'https://conswebapi.absolute.com';
+    //var g_host = 'http://localhost:62002';
+    var g_apiKey = '14318D1E03544EC1AB351E2AA1CCA9F0';
+
+    var g_locationsData;
+    var g_map;
+
+    var g_fitBounds;
+
+    var g_useLocalStorage;
+
+    var g_sortedDatesAvailable = [];
+
+    var g_markersOnMap = [];
+    var g_totalClusters;
+    var g_markers = []; //array of markers used for clustering
+    var g_markerCluster; //markerCluster object created by Google library
+    var g_markerClusterStyle = [{ url: 'https://partnercontent.absolute.com/CC/content/Images/markerclusterer-icon.png', height: 32, width: 32, anchorIcon: [0, 14]}]
+    var g_markerClusterOptions = { maxZoom: 21, gridSize: 80, zoomOnClick: false, styles: g_markerClusterStyle }; //options for Google Marker Cluster
+
+    var g_infoWindow;
+
+    var e_webMercator;
+    var e_wgs84;
+
+    var e_currentInfoWindow;
+
+    var e_extentLayer;
+
+    var DEBUG = getQueryStringParameters()["d"];
+    var LOCAL = getQueryStringParameters()["l"];
+    var ESRI = getQueryStringParameters()["e"];
+    if (!DEBUG) console.log = function () { };
+
+    //if a type of English locale, use AM/PM, other use 24 hr clock
+    var timeFormat = (g_locale.indexOf("en") > -1) ? "h:mm A" : "HH:mm";
+
+    //testing for localStorage usage, function will run before
+    var storageAvailable = (function () {
+        // use this code once approved
+        //        var testData = new Date();
+        //        var testResults;
+
+        //        //if localStorage is not supported
+        //        if (typeof (Storage) == "undefined") {
+        //            return false;
+        //        }
+
+        //        //try to test a set/get localStorage
+        //        try {
+        //            localStorage.setItem(testData, testData);
+        //            testResults = (localStorage.getItem(testData) == testData);
+        //            localStorage.removeItem(testData);
+
+        //            return testResults;
+        //        } catch (exception) {
+        //            console.error("localStorage exception: ", exception);
+        //            return false;
+        //        }
+
+        //if localStorage is not supported
+        if (typeof (Storage) == "undefined") {
+            return false;
+        } else {
+            return true;
+        }
+    } ());
+
+
+
+    
+    //call for data when document is ready
+    $(document).ready(function () {
+
+        var dateTime = new Date();        
+        
+        //host for ConsWebApiService.cs
+        //host += 'api/devices/' + g_esn + '/locations?v=' + dateTime.getTime();
+        
+        //host for ConsWebApi.Absolute.Com
+        var host = g_host + '/api/v1/devices/' + g_esn + '/locations?v=' + dateTime.getTime();
+
+        $.ajax({
+            url: host,
+            headers: { 'SessionToken': jwtToken, apikey: g_apiKey },            
+            type: 'get',
+            contentType: 'application/json; charset=utf-8',
+            async: true,
+            success: function (data, status) {
+                console.log("API call success: ", status, data);
+
+                if (ESRI) {
+                    data.UseGoogleMap = false;
+                    console.log("Forcing ESRI");
+                }
+                if (storageAvailable) {
+
+                    //empty localStorage, set it with the new data.
+                    if (!(localStorage.getItem(g_esn))) {
+                        console.log("No localStorage for", g_esn);
+
+                        data.IsPremiumProduct = g_isPremiumProduct; //assign to use to check later
+                        localStorage.setItem(g_esn, JSON.stringify(data)); //store the data
+
+                        console.log(JSON.parse(localStorage.getItem(g_esn)));
+
+                        g_locationsData = data; //this is new data, use this
+                        sortLocationsByDate(); //sort data by date
+                    } else {
+                        var localStorageLocation = JSON.parse(localStorage.getItem(g_esn)); //let's see whats locally stored
+
+                        if (localStorageLocation.Locations.length > 0 && data.Locations.length > 0) { //if there's more than 1 location
+
+                            //if last calls and the product stays the same, data has not changed, use local storage data
+                            if ((localStorageLocation.Locations[0].lastCall == data.Locations[0].lastCall)
+                                && (localStorageLocation.IsPremiumProduct == g_isPremiumProduct)) {
+                                console.log("localStorage can be used");
+                                g_locationsData = localStorageLocation;
+                                g_sortedDatesAvailable = JSON.parse(localStorage.getItem("Dates-" + g_esn)); //date ranges need to be retrieved.
+                            } else {
+                                console.log("Don't use localStorage - clearing data");
+                                //call time updated, or product change, remove old data and use new
+                                localStorage.removeItem(g_esn);
+                                localStorage.removeItem("Dates-" + g_esn);
+
+                                data.IsPremiumProduct = g_isPremiumProduct; //assign to use to check later
+
+                                g_locationsData = data;
+                                sortLocationsByDate(); //sort data by date
+                            } //end if/else
+
+                        } else {//old or no locations, use ConsWebAPI data
+                            console.log("use new data");
+                            g_locationsData = data;
+                            sortLocationsByDate(); //sort new data by date
+                        } //end if(localStorageLocation.Locations.length > 0 && data.Locations.length > 0)
+
+                    } //end if(!(localStorage.getItem(g_esn)))
+                } else {//if(storageAvailable) else localStorage not available
+                    //use API data as normal
+                    g_locationsData = data;
+                    sortLocationsByDate(); //sort data by date
+                }
+
+                loadMapType();
+            }, //end success
+            error: function (xhr, text, error) {
+                console.log("API call failed.")
+                console.log("Text: ", text);
+                console.log("Error: ", error);
+                console.log("XHR: ", xhr);
+            } //end error
+        }); //end $.ajax
+    });          //end document.ready()
+
+
+
+    //--------- Shared Map Functions
+
+    //load map scripts for Google/Esri
+    function loadMapType() {
+        //Load Google or Esri map
+        if (g_locationsData.UseGoogleMap) {
+            console.log("Use Google Map");
+            loadGoogleMapsScript();
+        } else {
+            console.log("Use Esri Map");
+            loadEsriMapsScript();
+        }
+        $('#loading-map').remove();
+    } //end loadMapType()
+
+
+    //function initilizes UI, and starter functionality
+    function initializeMapControls() {
+        //if premium product and more than 0 locations
+        if (g_isPremiumProduct == "True" && g_locationsData.NumberOfPoints > 0) {
+            revealPremiumControls();
+            activatePremiumControlsButtons();
+            populateMostRecentLocation();
+        } else if (g_isPremiumProduct == "False" && g_locationsData.NumberOfPoints > 0) { //else if standard product and more than 0 locations
+            console.log("Show single point");
+            revealStandardControls();
+        } else {
+            $('#noLocation').css("display", "block");
+        }
+
+        //if does not fulfill any of above, 0 locations, 'no location' banner will show.
+    } //end initializeMapControls()
+
+
+    //Takes the data returned for API call and collects the indexes which unique dates appear
+    function sortLocationsByDate() {
+
+        if (g_locationsData.NumberOfPoints == 0) {
+            console.log("No locations, no dates sorted");
+            return;
+        }
+
+        var datesCollected = [];
+        var numberOfDatesCollected = 0;
+        var mostRecentlyStoredDate;
+        var currentDate;
+        var currentTime;
+        var startIndex;
+        var endIndex;
+        var offset = moment().zone();
+
+        //go through each location
+        for (var i = 0; i < g_locationsData.NumberOfPoints; i++) {
+            if (numberOfDatesCollected == 14) {
+                break; //we only count the last 14 days of data
+            }
+            
+            //convert from UTC to local time, to be grouped on locations based on local time
+            currentDate = moment.utc(g_locationsData.Locations[i].lastLocationTime).zone(offset);
+            g_locationsData.Locations[i].lastLocationTime = currentDate.format(); //store the local time back to g_locationsData for infowindow and other uses
+            currentDate = currentDate.format('DD/MM/YYYY'); //reverse MM/DD to DD/MM
+            //console.log(currentDate);
+            
+            //console.log("currentDate: ", currentDate);
+            
+            //first time through
+            if (i == 0) {
+                startIndex = 0;
+                mostRecentlyStoredDate = currentDate;
+            }
+
+            //Multiple locations
+            if (g_locationsData.NumberOfPoints != 1) {
+
+                if (currentDate != mostRecentlyStoredDate || i == g_locationsData.NumberOfPoints - 1) {
+                    //console.log("change occured - current & most recent: ", currentDate, mostRecentlyStoredDate);
+
+                    //if last location, use the last point index, if not, use the current index - 1
+                    endIndex = (i == g_locationsData.NumberOfPoints - 1) ? g_locationsData.NumberOfPoints - 1 : i - 1;
+
+                    //console.log("start and end index: ", startIndex, endIndex);
+
+                    datesCollected[numberOfDatesCollected] = {
+                        'date': mostRecentlyStoredDate,
+                        'formattedDate': convertDateFormat(mostRecentlyStoredDate),
+                        'startIndex': startIndex,
+                        'endIndex': endIndex,
+                        'useLocalStorage': false
+                    };
+
+                    //after location found, new start index
+                    startIndex = i;
+                    //new date collected
+                    numberOfDatesCollected++;
+                }
+
+                mostRecentlyStoredDate = currentDate;
+                //console.log("mostRecentlyStoredDate: ", mostRecentlyStoredDate);
+
+            } else { //single location
+                datesCollected[0] = {
+                    'date': mostRecentlyStoredDate,
+                    'formattedDate': convertDateFormat(mostRecentlyStoredDate),
+                    'startIndex': 0,
+                    'endIndex': 0,
+                    'useLocalStorage': false
+                };
+
+                numberOfDatesCollected++;
+            }
+
+        } //end for loop
+        console.log(numberOfDatesCollected + " dates collected.", datesCollected);        
+            
+        //assign for global use, and store this new date range to localStorage
+        g_sortedDatesAvailable = datesCollected;
+        //set localStorage if available
+        if (storageAvailable) {
+            localStorage.setItem("Dates-" + g_esn, JSON.stringify(g_sortedDatesAvailable));
+        }
+
+    }//end sortLocationsByDate()
+
+
+    //convert DD-MM-YYYY into readable
+    function convertDateFormat(date) {
+        var formattedDate;
+
+        //console.log("Date: ", date);
+
+        //Locale for Simplified Chinese differs for Moment.js library
+        if (g_locale == "zh-chs") {
+            console.log("locale: ", g_locale);
+            g_locale = "zh-cn";
+        }
+
+        //Locale for Traditional Chinese differs for Moment.js library
+        if (g_locale == "zh-cht") {
+            console.log("locale: ", g_locale);
+            g_locale = "zh-tw";
+        }
+
+        formattedDate = moment(date, 'DD/MM/YYYY', g_locale);
+        formattedDate = formattedDate.format('LL');
+
+        //console.log("formattedDate: ", formattedDate);
+
+        return formattedDate;
+    } //end convertDateFormat()
+
+
+    function convertToTimeFormat(dateTime) {
+
+        var time = moment(dateTime).format(timeFormat); //variable timeFormat is set at the top depending on locale
+
+        return time;
+    } //end convertToTimeFormat
+
+
+    //function to reveal premium controls
+    function revealPremiumControls() {
+        //populate the history container with g_sortedDatesAvailable
+        populateLocationsHistoryList();
+        $('#locations-menu').fadeIn(200);
+        //show number of days available
+        $('.locations-history-title .number-of-days').text(g_sortedDatesAvailable.length);
+    }//end revealPremiumControls()
+
+    //activates the relavent buttons
+    function activatePremiumControlsButtons() {
+        
+        //check to see if we have locations today to show, enable or disable button
+        if (moment().format('DD/MM/YYYY') == g_sortedDatesAvailable[0].date) {
+            $('.locations-controls-show-today').addClass("control-button-enabled");
+        } else {
+            $('.locations-controls-show-today').addClass("control-button-disabled");
+        }
+    } //end activatePremiumControlsButtons()
+
+    //function to reveal standard controls
+    function revealStandardControls() {
+        $('#locations-menu').fadeIn(300);
+        populateMostRecentLocation();
+        $('#locations-controls').css("display", "none");
+        $('#recent-location-info').css("width", "100%");
+
+    } //end revealStandardControls();
+
+    //load location dates retrieved by API call
+    function populateLocationsHistoryList() {
+        var html = '';
+        var numberOfDates = g_sortedDatesAvailable.length;
+        var numberOfLocationsFoundPerDate = [];
+
+        console.log("Number of dates being populated: ", numberOfDates);
+
+        for (var i = 0; i < numberOfDates; i++) {
+            numberOfLocationsFoundPerDate[i] = (g_sortedDatesAvailable[i].endIndex - g_sortedDatesAvailable[i].startIndex + 1);
+
+            html += '<div id="location-index-' + i + '" class="locations-history-day control-button-enabled">' +
+                    '<span class="icon-location"></span>' +
+                    '<p class="location-history-date">' + g_sortedDatesAvailable[i].formattedDate + '</p><br/>';
+
+            if (numberOfLocationsFoundPerDate[i] > 1) {
+                html += '<p class="location-history-number-found"><span class="number-location-found"></span> locations found</p>';
+            } else {
+                html += '<p class="location-history-number-found">1 location found</p>';
+            }
+
+            html += '</div>';
+
+        }//end for
+
+        if (numberOfDates < 14) {
+            html += '<div class="locations-history-day control-button-disabled" style="text-align: center;">' +
+                    '<p>No more records</p>' +
+                    '</div>';
+        }
+        
+        //attach to dom
+        $('.locations-history-list').html(html);
+
+        //populate number of locations found by going through dom
+        for (var i = 0; i < numberOfDates; i++) {
+            //if it's more than 1, if it's 1 location, the string populated already states that
+            if (numberOfLocationsFoundPerDate[i] > 1) {
+                $("#location-index-" + i + " .location-history-number-found .number-location-found").text(numberOfLocationsFoundPerDate[i]);
+            }
+        }
+    }//end populateLocationsHistoryList()
+
+
+    function populateMostRecentLocation() {
+        
+        //populate text in control menu
+        $('.recent-location-time').text(g_locationsData.Locations[0].lastLocationDateString); //recent location time
+
+        $('.locations-history-day').removeClass('location-day-selected');
+        $('.locations-controls-show-today').removeClass('button-selected'); //if other button is selected
+        $('.locations-controls-show-recent').addClass('button-selected');
+
+        console.log("Populate most recent point:", g_locationsData.Locations[0].lastLocationDateString);
+        clearMarkersOnMap();        
+
+        //get coordinate of the most recent point, usually first index, and in the first range of indexes of g_sortedDatesAvailable
+        getLocationCoordinate(0, g_sortedDatesAvailable[0].useLocalStorage);
+        zoomToFit();
+    }//end populateMostRecentLocation()
+
+
+    //get a single coordinate for the map, using an index to look up in g_locationsData
+    function getLocationCoordinate(index, useLocalStorage) {
+        //console.log("Should I use localStorage?", useLocalStorage);        
+
+        //If we should use localStorage, or not to call Google API, use existing data
+        if (useLocalStorage == true || g_locationsData.Locations[index].callGoogleAPI == false || g_locationsData.UseGoogleMap == false) {
+            console.log("Point", index, "useLocalStorage", useLocalStorage);
+            
+            showMarkerOnMap(g_locationsData.Locations[index].longitude, g_locationsData.Locations[index].latitude, index);
+            //return whatever is already in the g_locationsData
+        } else {//else we can use google
+            //call for API,
+            if (g_locationsData.Locations[index].googleResolved != true) {
+                requestGoogleGeolocation(index);
+            }
+            else {
+                showMarkerOnMap(g_locationsData.Locations[index].longitude, g_locationsData.Locations[index].latitude, index);
+            }
+        }
+    }//end getLocationCoordinate()
+
+
+    //gets Google Geolocation
+    function requestGoogleGeolocation(index) {
+
+        var locationCoordinates = { "location": {} };
+
+//        //TEST!!
+//        locationCoordinates.location = {
+//            "lat": g_locationsData.Locations[index].latitude,
+//            "lng": g_locationsData.Locations[index].longitude
+        //        };
+
+
+        var googleResolved = false;
+        var url = g_host + '/api/v1/googlelocations/'
+
+        $.ajax({
+            url: url,  //use conswebapi to resolve google point,
+            headers: { 'SessionToken': jwtToken, apikey: g_apiKey },
+            type: 'post',
+            contentType: 'application/json; charset=utf-8',
+            data: g_locationsData.Locations[index].bssData,
+            async: false,
+            success: function (data, status) {
+                console.log("Google Geolocation request successful: ", data);
+                locationCoordinates.location = data.location;
+                googleResolved = true;
+
+            }, //end success
+            error: function (xhr, status, error) {
+                console.error("Google API Error Index: " + index, xhr, status, error);
+                locationCoordinates.location = {
+                    "lat": g_locationsData.Locations[index].latitude,
+                    "lng": g_locationsData.Locations[index].longitude
+                };
+            } //end error
+        });  //end $.ajax()
+
+        storeNewLocationPoint(locationCoordinates.location.lng, locationCoordinates.location.lat, index, googleResolved);
+        showMarkerOnMap(locationCoordinates.location.lng, locationCoordinates.location.lat, index);
+    }//end requestGoogleGeolocation()
+
+    function storeNewLocationPoint(longitude, latitude, locationIndex, googleResolved) {
+        //these are new coords, put them in g_locationsData global, and store it
+        g_locationsData.Locations[locationIndex].longitude = longitude;
+        g_locationsData.Locations[locationIndex].latitude = latitude;
+
+        //mark the google resoved to true so later can get from local storage directly
+        if (googleResolved == true) {
+            g_locationsData.Locations[locationIndex].googleResolved = true;
+        }
+        
+        //set localStorage if available
+        if (storageAvailable) {
+            localStorage.setItem(g_esn, JSON.stringify(g_locationsData));
+        }
+        
+        console.log("Storing:", latitude, longitude);
+    }//end storeNewLocationPoint()
+
+    //Show the marker on map, but Google or Esri?
+    function showMarkerOnMap(x, y, index) {
+        //console.log("Show marker at:", y, x);
+        if (g_locationsData.UseGoogleMap) {
+            loadGoogleMapMarker(x, y, index);
+        } else {
+            loadEsriMapMarker(x, y, index);
+        }
+    }//end showMarkerOnMap()
+
+
+    function zoomToFit() {
+        if (g_locationsData.UseGoogleMap) {
+            zoomToFitGoogleMap();
+        } else {
+            zoomToFitEsriMap();
+        }
+    }//end panToPoint()
+
+
+    function clearMarkersOnMap() {
+        if (g_locationsData.UseGoogleMap) {
+            clearGoogleMarkersOnMap();
+        } else {
+            clearEsriMarkersOnMap();
+        }
+    } //end clearMarkersOnMap()
+
+
+    //Used for populating locations for a specific date. Use the index in the sortedDatesAvailable,
+    // find the corresponding locations in g_locationsData, and populate
+    function populateLocationsForSpecificDate(locationDateIndex) {
+        var locations = [];
+
+        console.log("Parse locations for this date and indices:", g_sortedDatesAvailable[locationDateIndex]);
+        $('.locations-history-day').removeClass('location-day-selected');
+        $('#location-index-' + locationDateIndex).addClass('location-day-selected');
+        $('#location-index-' + locationDateIndex).addClass('loading-locations');
+
+        clearMarkersOnMap(); //clear markers on map
+        
+        //We collect the start and end index. End index must be used as the last point, that's why there is <=
+        for (var i = g_sortedDatesAvailable[locationDateIndex].startIndex; i <= g_sortedDatesAvailable[locationDateIndex].endIndex; i++) {
+            
+            //adding functions to an array to be used later in async call
+            locations.push(getLocationCoordinateAsync(i, g_sortedDatesAvailable[locationDateIndex].useLocalStorage));
+        }
+
+        console.log("Array of functions", locations);
+        //functions in this array are executed in parallel
+        async.parallel(locations, function (err, results) {
+            console.log("Async callback", results);
+
+            zoomToFit(); //zoom to fit the markers
+
+            createMarkerClusters();
+
+            //set this markers localStorage only if its available
+            if (storageAvailable) {
+                //locations for this date range is resolved, localStorage can be used next time for this range
+                g_sortedDatesAvailable[locationDateIndex].useLocalStorage = true;
+
+                //change made to localStorage value, must pack it back in.
+                localStorage.setItem("Dates-" + g_esn, JSON.stringify(g_sortedDatesAvailable));
+            }
+
+            console.log("fitbounds:", g_fitBounds);
+
+            $('#location-index-' + locationDateIndex).removeClass('loading-locations');
+        });
+        //console.log("Index range to parse", range, ". There are", counter, "locations in this range");
+    } //end populateLocationsForSpecificDate()
+
+
+    //get a single coordinate for the map, using an index to look up in g_locationsData
+    function getLocationCoordinateAsync(index, useLocalStorage) {
+        return function (callback) {
+            //If we should use localStorage, or not to call Google API, use existing data
+            if (useLocalStorage == true || g_locationsData.Locations[index].callGoogleAPI == false || g_locationsData.UseGoogleMap == false) {
+                console.log("Point " + index + " useLocalStorage", useLocalStorage, "async");
+                showMarkerOnMap(g_locationsData.Locations[index].longitude, g_locationsData.Locations[index].latitude, index);
+            } else {//else we can use google
+                //call for API, 
+                requestGoogleGeolocation(index);
+                console.log("Async function building");
+            }
+            callback(null, index);
+        }
+    } //end getLocationCoordinate()
+
+
+    //create marker clustering for Google/Esri
+    function createMarkerClusters() {
+        //if using Google Map
+        if (g_locationsData.UseGoogleMap) {
+            createGoogleMarkerClusters();
+        }
+    }//end createMarkerClusters
+
+    //gets location technology of a location, converts to a readable string
+    function getLocationTechnology(index) {
+        
+        var locationTechnology;
+        
+        //resolve location technology values
+        switch (g_locationsData.Locations[index].locationTechnoloy) { //locationTechnoloy is a known spelling mistake
+            case 8:
+                locationTechnology = 'IP';
+                break;
+            case 16:
+                locationTechnology = 'Wi-Fi';
+                break;
+            case 32:
+            case 64:
+                locationTechnology = 'Device Location Service';
+                break;
+            case 128:
+                locationTechnology = 'GPS';
+                break;
+            default:
+                locationTechnology = 'Other';
+                break;
+        }
+
+        return locationTechnology;
+    }//end getLocationTechnology
+
+    //--------- End Shared Map Functions
+
+
+    //--------- Location Controls - Click Events
+
+
+
+    //--------- End Location Controls - Click Events
+
+
+    
+    //--------- Google Map Functions
+
+    function loadGoogleMapsScript() {
+        $.ajax({
+            url: 'https://maps.googleapis.com/maps/api/js' + '?callback=renderGoogleMap&client=gme-absolutesoftware&v=3.17',
+            dataType: "script",
+            cache: true,
+            success: function (data, status) { console.log("Google Maps script loaded: ", status); },
+            error: function (xhr, text, error) { console.error("Could not load Google Maps script:", xhr, text, error); }
+        });
+    }//end loadGoogleMapsScript()
+
+
+    function renderGoogleMap() {
+        console.log("Rendering Google Map");
+
+        var mapOptions;
+
+        mapOptions = {
+            disableDefaultUI: true,
+            panControl: true,
+            zoomControl: true,
+            zoomControlOptions: { style: google.maps.ZoomControlStyle.SMALL },
+            zoom: 2,
+            center: new google.maps.LatLng(36.688938, -22.211688),
+            styles: [{ //to remove Google Places locations on map.
+                featureType: "poi",
+                stylers: [{ visibility: "off"}]
+            }]
+        };
+
+        g_map = new google.maps.Map(document.getElementById("map_canvas"), mapOptions);
+        g_infoWindow = new google.maps.InfoWindow(); //global info window for use on marker/cluster click
+
+        initializeMapControls();
+    }//end renderGoogleMap()
+
+
+    //load a marker with info window on map. index used for the location string
+    function loadGoogleMapMarker(x, y, index) {        
+
+        //create marker
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(y, x),
+            icon: 'https://partnercontent.absolute.com/CC/content/Images/marker-icon.png',
+            map: g_map,
+            index: index,
+            infoWindowContent: createGoogleInfoWindowContent(index)
+        });
+
+        //add markers to cluster
+        g_markers.push(marker);
+
+        google.maps.event.addListener(marker, 'click', function (event) {
+            console.log("Marker clicked:", this.index);
+            openGoogleInfoWindow(this);
+        });
+        //console.log("Load point index:", index);
+
+        g_fitBounds.extend(marker.getPosition());
+        g_markersOnMap[index] = marker;
+
+    }//end loadGoogleMapMarker()
+
+    //
+    function createGoogleMarkerClusters() {
+
+        //g_markerCluster is a shared object, gets overwritten. everytime we load new clusters
+        //we need to clear old listeners to make sure they don't fire as welel.
+        if (typeof(g_markerCluster) != 'undefined') {
+            google.maps.event.clearInstanceListeners(g_markerCluster);
+        }
+
+        //create marker cluster object
+        g_markerCluster = new MarkerClusterer(g_map, g_markers, g_markerClusterOptions);
+
+        google.maps.event.addListener(g_markerCluster, 'click', function (cluster) {
+            googleMarkerClusterClick(cluster);
+        });
+
+        //if clusters split up, remove any info windows.
+        google.maps.event.addListener(g_markerCluster, 'clusteringend', function (cluster) {
+            var googleClustersOnMap = getNumberOfGoogleClustersOnMap(cluster); //we want the current number of clusters on map
+            //console.log("clusteringend, googleClustersOnMap", googleClustersOnMap);
+            //if the clusters are not equal, remove the window, and assigne the new cluster value (the first time, it'll close always)
+            if (g_totalClusters != googleClustersOnMap) {
+                g_infoWindow.close();
+
+                g_totalClusters = googleClustersOnMap;
+            }
+        });//end clusteringend listener
+
+    }//end createGoogleMarkerClusters
+
+
+    //get the number of clusters on the map
+    function getNumberOfGoogleClustersOnMap(cluster) {
+        var i;
+        var numberOfClusters = 0;
+        var allClusters = cluster.getClusters();
+
+        //we have to loop through because a single marker is considered a cluster, we don't count those.
+        for (i = 0; i < allClusters.length; i++) {
+            if (allClusters[i].getSize() > 1) {
+                numberOfClusters++;
+            }
+        }
+        //console.log("numberOfClusters", numberOfClusters);
+
+        return numberOfClusters;
+    } //end getNumberOfGoogleClustersOnMap()
+
+
+    //
+    function googleMarkerClusterClick(cluster) {
+        console.log("Cluster clicked", cluster);
+
+        //TODO
+
+        //create and store the infoWindow
+        cluster.infoWindowContent = createGoogleClusterInfoWindowContent(cluster.getMarkers());
+
+        console.log("Cluster with infoWindow: ", cluster);
+
+        //open the infoWindow
+        openGoogleClusterInfoWindow(cluster);
+
+    }//end googleMarkerClusterClick()
+
+
+    //
+    function zoomToFitGoogleMap() {
+        //if there  is a singular point/location, zoom is too close. extend the bounds of the markers to zoom out.
+        if (g_fitBounds.getNorthEast().equals(g_fitBounds.getSouthWest())) {
+            var extendPoint1 = new google.maps.LatLng(g_fitBounds.getNorthEast().lat() + 0.01, g_fitBounds.getNorthEast().lng() + 0.01);
+            var extendPoint2 = new google.maps.LatLng(g_fitBounds.getNorthEast().lat() - 0.01, g_fitBounds.getNorthEast().lng() - 0.01);
+
+            g_fitBounds.extend(extendPoint1);
+            g_fitBounds.extend(extendPoint2);
+        }
+        g_map.fitBounds(g_fitBounds);
+    } //end zoomToFitGoogleMap()
+
+
+    //
+    function clearGoogleMarkersOnMap() {
+
+        //close all info windows
+        g_infoWindow.close();
+
+        //empty marker array used for clusters
+        g_markers = [];
+
+        //clear cluster if exists
+        if (typeof (g_markerCluster) != 'undefined') {
+            g_markerCluster.clearMarkers();
+        }
+
+        //we are clearing the map, so a new bounds needs to be set
+        g_fitBounds = new google.maps.LatLngBounds();
+
+        for (var i = 0; i < g_markersOnMap.length; i++) {
+            if (typeof (g_markersOnMap[i]) != "undefined") {
+                //console.log("not undefined");
+                g_markersOnMap[i].setMap(null);
+            }
+        }
+    } //end clearGoogleMarkersOnMap()
+
+
+    //info window for clusters have location history, at most 1 extra location.
+    //this generates the remaining table to display location data for createGoogleClusterInfoWindowContent()
+    function getLocationDataHistoryForInfoWindow(arrayOfMarkers) {
+        var content = "";
+        var infoWindowDetails;
+        var i;
+
+        //start at 1 because the first marker is in the main info window
+        for (i = 1; i < arrayOfMarkers.length; i++) {
+            //get time and technology
+            infoWindowDetails = getGoogleInfoWindowContent(arrayOfMarkers[i].index);
+
+            content +=
+                "<tr>" +
+                "<td>" + infoWindowDetails.locationTime + "</td>" +
+                "<td>" + infoWindowDetails.locationTechnology + "</td>" +
+                "</tr>";
+        }
+        
+        //console.log("content", content);
+        
+        return content;
+    }//end getLocationDataForInfoWindow()
+
+
+    //TODO Style the cluster, when you click on cluster again, it stays open. cluster info window and marker info window open.
+    function createGoogleClusterInfoWindowContent(arrayOfMarkers) {
+        var infoWindowContent;
+        var infoWindowDetails;
+        var locationDataHistory;
+
+        console.log("arrayofMarkers: ", arrayOfMarkers);
+        locationDataHistory = getLocationDataHistoryForInfoWindow(arrayOfMarkers);
+
+        //the infoWindow will have most recent info with past info hidden
+        infoWindowDetails = getGoogleInfoWindowContent(arrayOfMarkers[0].index);
+
+        infoWindowContent =
+                "<div class=\"info-window-cluster-content\">" +
+                "<p class=\"info-window-date-title\">" + infoWindowDetails.locationDate + "</p>" +
+                "<div class=\"info-window-recent-info\">" +
+                "<p>Location time</p>" +
+                "<p style=\"font-weight: bold;\">" + infoWindowDetails.locationTime + "</p>" +
+                "<br>" +
+                "<p>Located by</p>" +
+                "<p style=\"font-weight: bold;\">" + infoWindowDetails.locationTechnology + "</p>" +
+                "<br>" +
+                "</div>" +
+                "<a class=\"info-window-location-toggle\"><strong>Show more location data</strong></a>" +
+                "<a class=\"info-window-location-toggle hide-table\"><strong>Hide location data</strong></a>" +
+                "<table class=\"show-location-data-table\">" +
+                "<tr><th class=\"align-left\">Location time</th><th class=\"align-left\">Located by</th></tr>" +
+                "</table>" +
+                "<div class=\"location-data-table-container\">" +
+                "<table class=\"show-location-data-table\">" +
+                locationDataHistory +
+                "</table>" +
+                "</div>" +
+                "</div>";
+
+        //ShowLocationData
+        //HideLocationData
+
+
+        return infoWindowContent;
+    } //end createGoogleClusterInfoWindowContent()
+
+
+    function createGoogleInfoWindowContent(index) {
+        var infoWindowContent;
+        var infoWindowDetails;
+
+        infoWindowDetails = getGoogleInfoWindowContent(index);
+
+        //console.log("location time (moment)", locationTime);
+        //console.log("location date (moment)", locationDate);
+
+        infoWindowContent =
+                "<div class=\"info-window-body-content\">" +
+                "<p class=\"info-window-date-title\">" + infoWindowDetails.locationDate + "</p>" +
+                "<div class=\"info-window-recent-info\">" +
+                "<p>Location time</p>" +
+                "<p style=\"font-weight: bold;\">" + infoWindowDetails.locationTime + "</p>" +
+                "<br>" +
+                "<p>Located by</p>" +
+                "<p style=\"font-weight: bold;\">" + infoWindowDetails.locationTechnology + "</p>" +
+                "<br>" +
+                "</div>" +
+                "</div>";
+
+        return infoWindowContent;
+    } //end createGoogleInfoWindowContent();
+
+
+    //takes index of the marker needed for information, returns object.
+    function getGoogleInfoWindowContent(index) {
+        var locationDate;
+        var locationTime;
+        var locationTechnology;
+
+        locationDate = moment(g_locationsData.Locations[index].lastLocationTime).format('DD/MM/YYYY');
+        locationDate = convertDateFormat(locationDate); //function takes DD/MM/YYYY
+
+        locationTime = convertToTimeFormat(g_locationsData.Locations[index].lastLocationTime);
+        locationTechnology = getLocationTechnology(index);
+
+        return {
+            "locationDate": locationDate,
+            "locationTime": locationTime,
+            "locationTechnology": locationTechnology
+        }
+    } //end getGoogleInfoWindowContent()
+
+
+
+    //
+    function openGoogleClusterInfoWindow(cluster) {
+        g_infoWindow.close();
+
+        g_map.panTo(cluster.getCenter());
+        g_map.panBy(0, -100);
+
+        g_infoWindow.setContent(cluster.infoWindowContent);
+        g_infoWindow.setPosition(cluster.getCenter());
+        g_infoWindow.open(g_map);
+
+    }//end openGoogleClusterInfoWindow
+
+
+    //
+    function openGoogleInfoWindow(marker) {
+        g_infoWindow.close();
+
+        g_map.panTo(marker.position);
+        g_map.panBy(0, -80);
+
+        g_infoWindow.setContent(marker.infoWindowContent);
+        g_infoWindow.open(g_map, marker);
+
+    }//end openGoogleInfoWindow()
+
+
+    //--------- End Google Map Functions
+
+
+
+    //--------- Esri Map Functions
+
+    //load the script when needed, required modules as well.
+    function loadEsriMapsScript() {
+        $.ajax({
+            url: 'https://serverapi.arcgisonline.com/jsapi/arcgis/?v=2.6',
+            dataType: "script",
+            cache: true,
+            success: function (data, status) {
+                console.log("Esri maps script loaded: ", status);
+
+                dojo.require("esri.map");
+                dojo.require('esri.geometry');
+                dojo.require('esri.layers.osm');
+                dojo.require("esri.layers.graphics");
+                dojo.require("esri.graphic");
+
+                dojo.addOnLoad(function () {
+                    renderEsriMap();
+                });
+            },
+            error: function (xhr, text, error) { console.error("Could not load Google Maps script:", xhr, text, error); }
+        });
+    }//end loadEsriMapsScript()
+
+    //called when requires are done, render the map
+    function renderEsriMap() {
+        e_webMercator = new esri.SpatialReference({ wkid: 102100 });
+        e_wgs84 = new esri.SpatialReference({ wkid: 4326 });
+        g_map = new esri.Map("map_canvas");
+
+        dojo.connect(g_map, "onLoad", function () {
+            console.log("Esri map on load");
+
+            initializeMapControls();
+        });
+
+        g_map.addLayer(new esri.layers.OpenStreetMapLayer({ id: 'osa_layer', tileServers: ['https://geomap.absolute.com/'] }));
+
+    } //end renderEsriMap()
+
+
+    //
+    function loadEsriMapMarker(x, y, index) {
+        var mapPoint;
+        var markerGraphic;
+        var marker = new esri.symbol.SimpleMarkerSymbol().setStyle(
+	            esri.symbol.SimpleMarkerSymbol.STYLE_CIRCLE).setColor(
+	            new dojo.Color([108, 1, 1]));
+        var locationTechnology;
+
+        marker.setSize(20);
+
+        mapPoint = new esri.geometry.Point(x, y, e_wgs84);
+
+        markerGraphic = new esri.Graphic(convertToGeometry(mapPoint), marker);
+
+        //get location technology - "located by"
+        locationTechnology = getLocationTechnology(index);
+
+        markerGraphic.setAttributes({
+            "index": index,
+            "locationString": g_locationsData.Locations[index].lastLocationDateString,
+            "locationTechnology": locationTechnology
+        });
+
+        g_map.graphics.add(markerGraphic);
+
+
+    }//end loadEsriMapMarker()
+
+    //
+    function convertToGeometry(geometry) {
+        if (geometry.spatialReference.wkid != e_webMercator.wkid)
+            geometry = esri.geometry.geographicToWebMercator(geometry);
+        return geometry;
+    }//end convertToGeometry()
+
+    function addEsriMapExtent(point) {
+        
+    } //end addEsriMapExtent()
+
+    //
+    function zoomToFitEsriMap() {
+        var g = g_map.graphics.graphics[0].geometry;
+        var ext;
+
+        g_fitBounds = g.getExtent(); //getExtent of the first object
+
+        //if it is null, we do not have an Extent yet, make new one
+        if (g_fitBounds === null) {
+            g_fitBounds = new esri.geometry.Extent(g.x, g.y, g.x, g.y, g.spatialReference);
+        }
+
+        //only loop through the rest of there is some, add to current Extent with union()
+        for (var i = 1; i < g_map.graphics.graphics.length; i++) {
+            g = g_map.graphics.graphics[i].geometry;
+            ext = g.getExtent();
+
+            if (ext === null) {
+                ext = new esri.geometry.Extent(g.x, g.y, g.x, g.y, g.spatialReference);
+            }
+
+            g_fitBounds = g_fitBounds.union(ext);
+        }
+
+        //setExtent with bounds	
+        // for arcgis 2.4, if the offset is 0 or too small like 1000, i.e. xmin=xmax and ymin=ymax, the chrome crash.
+        // chnaged to arcgis 2.6, 0 offset doesn't crash, but doesn't zoom as well. But a small offset like 10 will zoom well.
+        var offset = 10;
+        var extent = new esri.geometry.Extent({ xmin: g.x - offset, ymin: g.y - offset, xmax: g.x + offset, ymax: g.y + offset, spatialReference: g.spatialReference });        
+        extent = extent.expand(1.5);        
+        g_map.setExtent(extent);        
+
+        //after zoomed, add click events to graphics
+        dojo.connect(g_map.graphics, 'onClick', esriMarkerClick);
+    }//end zoomToFitEsriMap()
+
+    //
+    function esriMarkerClick(event){
+        console.log("Esri marker clicked:", event.graphic.attributes);
+        if (g_map.infoWindow.isShowing) {
+            g_map.infoWindow.hide();
+        }
+
+        g_map.infoWindow.setContent("<p><strong>Location time</strong></p>" +
+                "<p>" + event.graphic.attributes['locationString'] + "</p>" +
+                "<p><strong>Located by</strong></p>" +
+                "<p>" + event.graphic.attributes['locationTechnology'] + "</p>");
+
+        g_map.infoWindow.show(event.screenPoint, g_map.getInfoWindowAnchor(event.screenPoint));
+
+
+    } //end esriMarkerClick()
+
+    //
+    function clearEsriMarkersOnMap() {
+        g_fitBounds = null;
+        //Esri markers clear
+        g_map.graphics.clear();
+    } //end clearEsriMarkersOnMap()
+
+
+    //--------- End Esri Map Functions
+
+
+
+
+
+
+    //--------- Local Storage Functions
+
+
+
+
+
+    //--------- End Local Storage Functions
+    
+    
+
+
+    //set console logs and/or local testing parameters from QS
+    function getQueryStringParameters() {
+        var vars = [], hash;
+        var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+        for (var i = 0; i < hashes.length; i++) {
+            hash = hashes[i].split('=');
+            vars.push(hash[0]);
+            vars[hash[0]] = hash[1];
+        }
+        return vars;
+    }//end getQueryStringParameters()
+</script>
+
+﻿
+    <script type="text/javascript">
+        var arrBanners = ['offer1', 'offer2', 'noLocation', 'expiredLicenseDiv'];
+
+        function resolveDisplayForAllBanners() {            
+            var idx = 0;
+            for (var i = 0; i <= 3; i++) {
+                var eleId = '#' + arrBanners[i];
+                var currentTop = idx * (95 + 10) + (-20);
+                var marginTop = idx * 95;
+                if ($(eleId).length > 0) {
+                    if ($(eleId).css('display') != 'none') {
+                        if(arrBanners[i] != 'expiredLicenseDiv'){
+                            $(eleId).css('top', currentTop+'px');
+                        }
+                        else{
+                            $(eleId).css('margin-top', marginTop+'px');
+                        }
+                        idx = idx + 1;
+                    }
+                }
+            } 
+        }
+
+        $(document).ready(function () {
+
+        if('')
+        {
+            $('#noLocation').css('top', '0px');
+        }
+            resolveDisplayForAllBanners();
+            dataLayer.push({ 'CreativeID': '', 'event': 'banner', 'eventCategory': 'Banner', 'eventAction': 'Banner', 'eventLabel': 'Banner Loaded' });
+        });
+
+        function LoadURL(url) {
+            $.ajax({
+                url: url,
+                dataType: "jsonp",
+                statusCode: {
+                    200: function(response) {
+                        $("#IframeBanner")[0].src = url;
+                        $("#closer")[0].hidden = false;
+                        $("#banner").css({cursor:"pointer"});
+                        $("#banner").css({'pointer-events':"all"});
+                        $("#tierthree-wrapper").css({'display':"block"});
+                    },   
+                },
+            });
+        }  
+
+    </script>
+    <script type="text/javascript">
+
+        function logAction(offerType) {
+            $.ajax({
+                url: '/DeviceInfo/LogActionForSubscribeAndSaveReport',
+                type: 'POST',
+                data: { 'eventType': 'Banner_SubscribeAndSave', 'offerType': offerType },
+                success: function (data, textStatus, xhr) {
+                    //do nothing
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox                           
+                }
+            });
+        }
+
+
+        function callDisableAutoRenewal(offerType) {
+            $('#disableAutoRenewal').click();
+
+            $.ajax({
+                url: '/DeviceInfo/LogActionForSubscribeAndSaveReport',
+                type: 'POST',
+                data: { 'eventType': 'Banner_SubscribeAndSave', 'offerType': offerType },
+                success: function (data, textStatus, xhr) {
+                    //do nothing
+                },
+                error: function (xhr, status) {
+                    //Close the Dialogbox                           
+                }
+            });
+
+
+            dataLayer.push({ 'event': 'banner', 'eventCategory': 'Banner', 'eventAction': 'Banner', 'eventLabel': 'Banner Accepted' });
+        }
+    </script>
+
+
+<!--Will enable later-->
+
+
+
+
+
+    <!-- start wifi message banner -->
+
+    <div id="tierthree-wrapper">
+        <div style="" id="noLocation">            
+            <p class="banner">After installation, it may take up to 30 minutes to update your map.  During this period, you can confirm your device is protected by checking that your device status is "Calling".   If after 24 hours  you still see this message, please contact <a href="http://lojack.absolute.com/en/support" target="_blank" title="Global Customer Support for Absolute Software Corporation Customer Center">Global Support</a>.</p>
+            <a id="closer" style="top: 10px; right: 5px; height: 25px; width: 25px"><img src="https://partnercontent.absolute.com/CC/content/images/close.png" alt=""></a>
+        </div>
+    </div>    
+    
+    <script>
+        if ($('#noLocation').height() > 107) {
+            // For IE 8
+            if ($.browser.msie) {
+                browserVer = ($.browser.version);
+                if (browserVer <= 8) {
+                    $('#noLocation').css("filter", "progid:DXImageTransform.Microsoft.AlphaImageLoader( src='https://partnercontent.absolute.com/CC/content/Images/MapMessage.png', sizingMethod='scale')");
+                    $('#noLocation p.banner').css('line-height', '20px');
+                }
+            }
+        }
+        else {
+            $('#noLocation a.banner').css('height', '100px');
+        }
+
+        //no #support element right now
+        $('#noLocation #support').click(function () {
+            window.open("https://help.absolute.com/html5/en/Default.htm");
+        });
+
+        $('#noLocation #closer').click(function () {
+            $('#noLocation').fadeOut(400);
+        });
+    </script>
+    <!-- end wifi message banner -->
+
+<div id="map-container">
+    <div id="locations-menu" style="display: none;">
+        <div id="locations-history-container" style="display: none;">
+            <div class="locations-history-header-mulitple">
+                <p class="locations-history-title">Last <span class="number-of-days"></span> days</p>
+                <p class="locations-history-close control-button-enabled">X</p>
+            </div> <!-- end locations-history-header-multiple -->
+
+            <div class="locations-history-list-container">
+            <div class="locations-history-list"></div><!-- end locations-history-list -->
+            </div>
+
+        </div><!-- end locations-history-container -->
+
+        <div id="recent-location-container">
+            <div id="recent-location-info">
+                <img src="https://partnercontent.absolute.com/CC/content/images/icon-located-pin.png">
+                <p class="recent-location-title">Most recent location</p>
+                <p class="recent-location-time"></p>
+            </div> <!-- end recent-location-info -->
+
+            <div id="locations-controls">
+                <p class="locations-controls-show">Show</p>
+                <div class="locations-controls-button-container">
+                    <button class="locations-controls-show-recent control-button-enabled">Recent</button>
+                    <button class="locations-controls-show-today">Today</button>
+                </div>
+                <p class="locations-controls-show-history control-button-enabled">Show history</p>
+            </div><!-- end locations-controls -->
+        </div><!-- end recent-location-container -->
+
+    </div><!-- end locations-menu -->
+
+    <div id="map_canvas" style="position: relative; width: 100%; height: 480px; border: 1px solid #000;">
+        <!-- Div that will render jQuery Slider -->
+        <div id="jqSlider" style="position: absolute; right: 20px; top: 20px; height: 180px; z-index: 100; font-size: 9px;"></div>
+        <div id="loading-map"><img src="https://partnercontent.absolute.com/CC/content/images/loading.gif" alt="Loading Map"></div>
+    </div>
+</div>
+
+
+<div id="history">
+    <div id="history-wrapper-question">
+        <p>Questions about map location? <a href="https://help.absolute.com/html5/en/Default.htm#New Consumer Web Help/Section_3/Locating/LocateFAQs.htm" target="_blank">Click here</a>.</p>
+    </div>
+</div>
+<br>
+<!-- Div that will be used to render jQuery Dialog -->
+<div id="point" style="display: none">
+    <span class="circle">1</span>
+    <h2>
+    </h2>
+    <p>
+    </p>
+    <div id="arrow-border">
+    </div>
+    <div id="arrow">
+    </div>
+</div>
+
+<!-- map controls interaction -->
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        //show history button click
+        $('.locations-controls-show-history').click(function () {
+
+            var div = $('#locations-menu');
+
+            div.animate({ width: '330px' }, "700");
+            div.animate({ height: '300px' }, "700");
+
+            $('#recent-location-container').fadeOut(200);
+            $('#locations-history-container').delay(400).fadeIn(200);
+        }); //end click()
+
+
+        //close history button click
+        $('.locations-history-close').click(function () {
+            var div = $('#locations-menu');
+
+            div.animate({ height: '100px' }, "700");
+            div.animate({ width: '500px' }, "700");
+
+            $('#locations-history-container').fadeOut(200);
+            $('#recent-location-container').delay(500).fadeIn(200);
+        }); //end click()
+
+        //'Recent' button to produce most recent point.
+        $('.locations-controls-show-recent.control-button-enabled').click(function () {
+            populateMostRecentLocation();
+        }); //end click()
+
+        //Show locations when date is clicked, delegate since these dates are loaded dynamically
+        $('.locations-history-list').delegate('.locations-history-day.control-button-enabled', 'click', function () {
+            var locationIndex;
+            var elementId = $(this).attr('id').split("-");
+
+            $('.locations-controls-show-recent').removeClass('button-selected'); //if other button is selected
+            $('.locations-controls-show-today').removeClass('button-selected'); //if other button is selected
+
+            locationIndex = elementId[2];
+
+            console.log("Location", locationIndex, "clicked");
+
+            populateLocationsForSpecificDate(locationIndex);
+        }); //end delegate()
+
+        //Show locations from today. Delegate since control-button-enabled class is added dynamically.
+        $('.locations-controls-button-container').delegate('.locations-controls-show-today.control-button-enabled', 'click', function () {
+            $('.locations-controls-show-recent').removeClass('button-selected'); //if other button is selected
+
+            $('.locations-controls-show-today').addClass('button-selected'); //if other button is selected
+
+            console.log("Show today's locations");
+            populateLocationsForSpecificDate(0);
+        }); //end delegate()
+
+
+        //Show location data inside info window for marker clusters. Delegate since info windows are dynamic.
+        $('#map-container').delegate('.info-window-location-toggle', 'click', function () {
+            $('.info-window-recent-info').slideToggle();
+            $('.show-location-data-table').fadeToggle();
+            $('.info-window-location-toggle').toggleClass('hide-table');
+        }); //end delegate()
+
+
+    });   //end document.ready()
+</script>
+
+
+</div>
+
+
+
+ <div id="footer">
+    <div id="footer-wrapper">
+        <div class="footer-content">
+            <div class="footerLogo"><img src="https://partnercontent.absolute.com/Partners/ABST/CCDesktop/CCDesktop-footer-lojack-logo.png" alt=""></div>
+            <div class="footerLogo"><img src="https://partnercontent.absolute.com/Partners/ABST/CCDesktop/CCDesktop-footer-ADP-logo.png" alt=""></div>
+        </div>
+        <div class="footer-content right">
+            <p>For support issues, visit <a href="http://lojack.absolute.com/en/support" target="_blank">Absolute Global Support</a></p>
+            <p style="margin-top: 10px;">© 2017 Absolute Software Corporation. All rights reserved.<br>
+                    <a href="http://www.absolute.com/en/company/legal/policy.aspx" target="_blank">Privacy Policy</a> |                    <a href="http://www.absolute.com/en/company/legal/agreements/" target="_blank">Service Agreement</a>
+|              
+                    <a href="http://www.absolute.com/company/legal/patents" target="_blank">Patents in US,CAN,UK,GER,AUS,JPN</a> 
+            </p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+
+    var TimeOutSeconds = 19 * 60 *1000; //19 minutes
+    var Interval = 1 * 60 * 1000;// 1 minute
+
+    function ProcessSessionTimeOut_Tick() {
+        var sessionTimeOutSeconds = GetCookie('TimeOutSeconds');
+        sessionTimeOutSeconds = sessionTimeOutSeconds - Interval;
+        console.log("sessionTimeOutSeconds (mins): " + sessionTimeOutSeconds/(60 *1000));    
+        if (sessionTimeOutSeconds < 0)
+        {   
+            ClearCookie('TimeOutSeconds');
+            SendRequestTimeOut();
+        }else{
+            SetCookie("TimeOutSeconds",sessionTimeOutSeconds);
+            setTimeout("ProcessSessionTimeOut_Tick()", Interval);
+        }
+    }
+
+    function SendRequestTimeOut() {
+        //send timeout request
+        $.ajax({
+            type: 'POST',
+            url: '/Home/ProceedSessionTimeOut',
+            async : false,
+        });
+    }
+
+    function SetCookie(name, value) {
+        document.cookie = name + "=" + value + "; path=/";
+        if (window.parent) {
+            window.parent.document.cookie = name + "=" + value + "; path=/"; 
+        } 
+    }
+
+    function GetCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for (var i = 0; i < ca.length; i++) {
+            var c = ca[i];
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0)
+                return c.substring(nameEQ.length, c.length);
+        }
+        return null;
+    }
+
+    function ClearCookie(name) {
+        document.cookie = name + "=''; path=/";
+    }
+
+    $(document).ready(function () {
+        if (ABSFunction.isStaffUserLogin()) { 
+            console.log("begin to start session timeout timer");    
+            SetCookie("TimeOutSeconds",TimeOutSeconds);
+            ProcessSessionTimeOut_Tick();
+        }
+    });
+
+</script>
+<script type="text/javascript">
+
+/**
+ * This javascript file checks for the brower/browser tab action.
+ * It is based on the file menstioned by Daniel Melo.
+ * Reference: http://stackoverflow.com/questions/1921941/close-kill-the-session-when-the-browser-or-tab-is-closed
+ */
+var validNavigation = false;
+var log ="";
+function simpleModal_onShow ()
+{
+    log = log + "simpleModal_onShow";
+    setTimeout(simpleModal_onShow_Tick, 100);
+}
+
+function simpleModal_onShow_Tick()
+{
+    log = log + "simpleModal_onShow_Tick";
+    validNavigation = false;
+}
+
+function wireUpEvents_Tick(time)
+{
+    log = log + "wireUpEvents_Tick";
+    setTimeout(wireUpEvents, time);
+}
+
+function endSession() {
+  // Browser or broswer tab is closed
+  // Do sth here ...
+    $.ajax({
+        type: 'POST',
+        url: '/Home/CloseWindow',
+        async : false,
+    });
+}
+ 
+function wireUpEvents() {
+  /*
+  * For a list of events that triggers onbeforeunload on IE
+  * check http://msdn.microsoft.com/en-us/library/ms536907(VS.85).aspx
+  */
+  window.onunload = function() {
+        log = log + "onunload";
+      if (validNavigation == false) {
+         endSession();
+      }
+  }
+ 
+  // Attach the event keypress to exclude the F5 refresh
+  $(document).bind('keypress', function(e) {
+
+    if (e.keyCode == 116){
+    log = log + "keypress";
+      validNavigation = true;
+    }
+  });
+ 
+// Attach the event keypress to exclude the F5 refresh
+  $(document).bind('keydown', function(e) {
+
+    if (e.keyCode == 116){
+     log = log + "keydown";
+      validNavigation = true;
+    }
+  });
+
+  // Attach the event click for all links in the page
+  $("a").bind("click", function() {
+    log = log + "a_click";
+    validNavigation = true;
+  });
+
+$("a[class='banner']").bind("click", function() {
+        log = log + "banner_click";
+        simpleModal_onShow();
+  });
+
+$("a[class='close icon-close-2']").bind("click", function() {
+        log = log + "icon_close_click";
+        simpleModal_onShow();
+  });
+
+
+$("a[class='close icon-close']").bind("click", function() {
+        log = log + "icon_close_click";
+        simpleModal_onShow();
+  });
+
+ $("ul[class='card-tabs'] li a").bind("click", function() {
+        log = log + "a_device_click";
+        simpleModal_onShow();
+  });  
+ $("ul[class='card-tabs'] li").bind("click", function() {
+        log = log + "a_device_click";
+        simpleModal_onShow();
+  }); 
+
+
+  // Attach the event click for all links in the page
+  $("button").not(':input[type=submit], :input[type=reset]').bind("click", function() {
+    log = log + "button_click";
+    validNavigation = true;
+  });
+
+  $("button[class='btn-accept btn-primary btn-medium']").bind("click", function() {
+    log = log + "button_btn-accept_click";
+        simpleModal_onShow();
+  });
+
+  $("button[class='primary cta btn-accept']").bind("click", function() {
+    log = log + "button_btn-accept_click";
+        simpleModal_onShow();
+  });
+
+   $("button[class='tertiary close btn-decline']").bind("click", function() {
+    log = log + "button_btn-decline_click";
+        simpleModal_onShow();
+  });
+
+ $("button[class='btn-decline btn-low btn-medium']").bind("click", function() {
+    log = log + "button_btn-decline_click";
+        simpleModal_onShow();
+  });
+
+
+   $("ul[class='device-list'] li").bind("click", function() {
+    log = log + "ul_li_click";
+    validNavigation = true;
+  });
+
+ $("ul[class='device-list'] li a").bind("click", function() {
+    log = log + "ul_li_click";
+    validNavigation = true;
+  });
+
+  // Attach the event submit for all forms in the page
+  $("form").bind("submit", function() {
+//    var qform = $('form');
+//    $.validator.unobtrusive.parse(qform);
+//    if (qform.valid())
+//    {   
+//        log = log + "form is valid";
+//        simpleModal_onShow();
+//    }else{
+//        log = log + "form is not valid";
+//    }
+  });
+ 
+   
+
+  // Attach the event click for all links in the page
+  $("tr").live("click", function() {
+    log = log + "tr_click";
+    validNavigation = true;
+  });
+   
+    $(document).on("click","tr td", function(e){
+    log = log + "tr_td_click";
+        validNavigation = true;
+    });
+
+}
+ 
+// Wire up the events as soon as the DOM tree is ready
+$(document).ready(function() {
+    if (ABSFunction.isStaffUserLogin()) { 
+    
+        wireUpEvents();  
+    }
+});
+
+
+</script>
+
+
+
+
+
+
+<div style="display: none;" id="cboxOverlay"></div><div style="display: none;" class="" id="colorbox"><div id="cboxWrapper"><div><div style="float: left;" id="cboxTopLeft"></div><div style="float: left;" id="cboxTopCenter"></div><div style="float: left;" id="cboxTopRight"></div></div><div style="clear: left;"><div style="float: left;" id="cboxMiddleLeft"></div><div style="float: left;" id="cboxContent"><div style="width: 0px; height: 0px; overflow: hidden; float: left;" id="cboxLoadedContent"></div><div style="float: left;" id="cboxLoadingOverlay"></div><div style="float: left;" id="cboxLoadingGraphic"></div><div style="float: left;" id="cboxTitle"></div><div style="float: left;" id="cboxCurrent"></div><div style="float: left;" id="cboxNext"></div><div style="float: left;" id="cboxPrevious"></div><div style="float: left;" id="cboxSlideshow"></div><div style="float: left;" id="cboxClose"></div></div><div style="float: left;" id="cboxMiddleRight"></div></div><div style="clear: left;"><div style="float: left;" id="cboxBottomLeft"></div><div style="float: left;" id="cboxBottomCenter"></div><div style="float: left;" id="cboxBottomRight"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none;"></div></div></body></html>
